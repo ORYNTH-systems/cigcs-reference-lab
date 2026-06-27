@@ -1,0 +1,34 @@
+{
+  "case_id": "CB-012",
+  "title": "Single Constraint Violation Blocks Glyph",
+  "category": "Admissibility Predicate",
+
+  "glyph": {
+    "glyph_id": "glyph.fail.012",
+    "canonical_hash": "hash.fail.012",
+    "pose_valid": true,
+    "state_valid": true
+  },
+
+  "constraint_set": {
+    "constraint_id": "constraints.v1",
+    "admissible": false,
+    "failed_constraint_index": 1
+  },
+
+  "safety_predicate": {
+    "safe": true
+  },
+
+  "artifact": {
+    "present": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "single_constraint_violation",
+
+  "invariants": [
+    "Admissibility is conjunctive: ALL constraints must pass",
+    "A(?, G) = 1 only if no constraint fails"
+  ]
+}

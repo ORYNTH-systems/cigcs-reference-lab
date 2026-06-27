@@ -1,0 +1,33 @@
+{
+  "case_id": "CB-011",
+  "title": "Valid Glyph Satisfies All Constraints",
+  "category": "Admissibility Predicate",
+
+  "glyph": {
+    "glyph_id": "glyph.admissible.011",
+    "canonical_hash": "hash.admissible.011",
+    "pose_valid": true,
+    "state_valid": true
+  },
+
+  "constraint_set": {
+    "constraint_id": "constraints.v1",
+    "admissible": true
+  },
+
+  "safety_predicate": {
+    "safe": true
+  },
+
+  "artifact": {
+    "present": true
+  },
+
+  "expected_result": "admitted",
+  "expected_reason": "all_constraints_pass",
+
+  "invariants": [
+    "Admissibility Predicate — A(?, G) = 1",
+    "Fail-Closed Principle still applies to failures"
+  ]
+}

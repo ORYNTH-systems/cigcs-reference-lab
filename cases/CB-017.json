@@ -1,0 +1,32 @@
+{
+  "case_id": "CB-017",
+  "title": "Invalid Pose State Rejected",
+  "category": "Admissibility Predicate",
+
+  "glyph": {
+    "glyph_id": "glyph.fail.017",
+    "canonical_hash": "hash.fail.017",
+    "pose_valid": false,
+    "state_valid": true
+  },
+
+  "constraint_set": {
+    "constraint_id": "constraints.v1",
+    "admissible": false
+  },
+
+  "safety_predicate": {
+    "safe": true
+  },
+
+  "artifact": {
+    "present": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "invalid_pose_state",
+
+  "invariants": [
+    "Structural pose validity is required for admissibility"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "CB-021",
+  "title": "Safe Glyph Passes Safety Predicate",
+  "category": "Safety Predicate Layer",
+
+  "glyph": {
+    "glyph_id": "glyph.safe.021",
+    "canonical_hash": "hash.safe.021",
+    "pose_valid": true,
+    "state_valid": true
+  },
+
+  "constraint_set": {
+    "constraint_id": "constraints.v1",
+    "admissible": true
+  },
+
+  "safety_predicate": {
+    "safe": true,
+    "risk_score": 0.05
+  },
+
+  "artifact": {
+    "present": true
+  },
+
+  "expected_result": "admitted",
+  "expected_reason": "safe_and_admissible",
+
+  "invariants": [
+    "Safety predicate evaluates independently of admissibility",
+    "Admissible ? Safe ? Eligible for RAA issuance"
+  ]
+}

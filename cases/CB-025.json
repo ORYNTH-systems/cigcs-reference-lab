@@ -1,0 +1,33 @@
+{
+  "case_id": "CB-025",
+  "title": "Safety Dominates Structural Validity",
+  "category": "Safety Predicate Layer",
+
+  "glyph": {
+    "glyph_id": "glyph.valid.025",
+    "canonical_hash": "hash.valid.025",
+    "pose_valid": true,
+    "state_valid": true
+  },
+
+  "constraint_set": {
+    "constraint_id": "constraints.v1",
+    "admissible": true
+  },
+
+  "safety_predicate": {
+    "safe": false,
+    "risk_score": 0.88
+  },
+
+  "artifact": {
+    "present": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "safety_dominance",
+
+  "invariants": [
+    "Safety predicate overrides admissibility success"
+  ]
+}

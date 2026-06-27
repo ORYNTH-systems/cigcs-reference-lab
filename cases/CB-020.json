@@ -1,0 +1,34 @@
+{
+  "case_id": "CB-020",
+  "title": "Multiple Constraint Failures Collapse Admissibility",
+  "category": "Admissibility Predicate",
+
+  "glyph": {
+    "glyph_id": "glyph.fail.020",
+    "canonical_hash": "hash.fail.020",
+    "pose_valid": false,
+    "state_valid": false
+  },
+
+  "constraint_set": {
+    "constraint_id": "constraints.v1",
+    "admissible": false,
+    "failed_constraints": [1, 2, 3]
+  },
+
+  "safety_predicate": {
+    "safe": true
+  },
+
+  "artifact": {
+    "present": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "multi_constraint_failure",
+
+  "invariants": [
+    "Admissibility collapses under compound violation",
+    "No partial admissibility exists"
+  ]
+}

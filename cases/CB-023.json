@@ -1,0 +1,34 @@
+{
+  "case_id": "CB-023",
+  "title": "Indeterminate Safety Evaluation Fails Closed",
+  "category": "Safety Predicate Layer",
+
+  "glyph": {
+    "glyph_id": "glyph.indeterminate.023",
+    "canonical_hash": "hash.indeterminate.023",
+    "pose_valid": true,
+    "state_valid": true
+  },
+
+  "constraint_set": {
+    "constraint_id": "constraints.v1",
+    "admissible": true
+  },
+
+  "safety_predicate": {
+    "safe": null,
+    "risk_score": null
+  },
+
+  "artifact": {
+    "present": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "indeterminate_safety_fail_closed",
+
+  "invariants": [
+    "Safety indeterminacy is treated as unsafe by default",
+    "Fail-closed safety enforcement is mandatory"
+  ]
+}

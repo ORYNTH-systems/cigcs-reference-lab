@@ -1,0 +1,32 @@
+{
+  "case_id": "CB-013",
+  "title": "Missing Required Glyph Field Blocks Admissibility",
+  "category": "Admissibility Predicate",
+
+  "glyph": {
+    "glyph_id": null,
+    "canonical_hash": "hash.fail.013",
+    "pose_valid": true,
+    "state_valid": true
+  },
+
+  "constraint_set": {
+    "constraint_id": "constraints.v1",
+    "admissible": false
+  },
+
+  "safety_predicate": {
+    "safe": true
+  },
+
+  "artifact": {
+    "present": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "missing_required_field",
+
+  "invariants": [
+    "Well-formedness is required for admissibility evaluation"
+  ]
+}

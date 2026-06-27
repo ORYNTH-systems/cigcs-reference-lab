@@ -1,0 +1,32 @@
+{
+  "case_id": "CB-014",
+  "title": "Invalid Schema Blocks Glyph",
+  "category": "Admissibility Predicate",
+
+  "glyph": {
+    "glyph_id": "glyph.fail.014",
+    "canonical_hash": null,
+    "pose_valid": true,
+    "state_valid": true
+  },
+
+  "constraint_set": {
+    "constraint_id": "constraints.v1",
+    "admissible": false
+  },
+
+  "safety_predicate": {
+    "safe": true
+  },
+
+  "artifact": {
+    "present": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "schema_invalid",
+
+  "invariants": [
+    "Canonical representation must be complete and well-formed"
+  ]
+}

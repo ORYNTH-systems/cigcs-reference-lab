@@ -1,0 +1,32 @@
+{
+  "case_id": "CB-016",
+  "title": "Unknown Glyph Identifier Rejected",
+  "category": "Admissibility Predicate",
+
+  "glyph": {
+    "glyph_id": "unknown",
+    "canonical_hash": "hash.fail.016",
+    "pose_valid": true,
+    "state_valid": true
+  },
+
+  "constraint_set": {
+    "constraint_id": "constraints.v1",
+    "admissible": false
+  },
+
+  "safety_predicate": {
+    "safe": true
+  },
+
+  "artifact": {
+    "present": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "unknown_identifier",
+
+  "invariants": [
+    "Only registered canonical glyphs are admissible"
+  ]
+}

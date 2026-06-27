@@ -1,0 +1,34 @@
+{
+  "case_id": "CB-024",
+  "title": "Safety-Sensitive Pattern Rejected",
+  "category": "Safety Predicate Layer",
+
+  "glyph": {
+    "glyph_id": "glyph.riskpattern.024",
+    "canonical_hash": "hash.riskpattern.024",
+    "pose_valid": true,
+    "state_valid": true
+  },
+
+  "constraint_set": {
+    "constraint_id": "constraints.v1",
+    "admissible": true
+  },
+
+  "safety_predicate": {
+    "safe": false,
+    "risk_score": 0.78,
+    "trigger": "hazardous_pattern_detected"
+  },
+
+  "artifact": {
+    "present": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "risk_pattern_violation",
+
+  "invariants": [
+    "Pattern-based risk evaluation is independent of structural validity"
+  ]
+}

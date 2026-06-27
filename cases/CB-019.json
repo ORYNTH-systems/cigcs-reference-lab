@@ -1,0 +1,33 @@
+{
+  "case_id": "CB-019",
+  "title": "Disallowed Classification Rejected",
+  "category": "Admissibility Predicate",
+
+  "glyph": {
+    "glyph_id": "glyph.fail.019",
+    "canonical_hash": "hash.fail.019",
+    "pose_valid": true,
+    "state_valid": true,
+    "classification": "disallowed"
+  },
+
+  "constraint_set": {
+    "constraint_id": "constraints.v1",
+    "admissible": false
+  },
+
+  "safety_predicate": {
+    "safe": true
+  },
+
+  "artifact": {
+    "present": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "disallowed_classification",
+
+  "invariants": [
+    "Classification must satisfy governance constraints"
+  ]
+}

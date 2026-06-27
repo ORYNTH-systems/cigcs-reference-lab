@@ -1,0 +1,33 @@
+{
+  "case_id": "CB-018",
+  "title": "Disallowed Asset Identifier Rejected",
+  "category": "Admissibility Predicate",
+
+  "glyph": {
+    "glyph_id": "glyph.fail.018",
+    "canonical_hash": "hash.fail.018",
+    "pose_valid": true,
+    "state_valid": true,
+    "asset_id": "disallowed_asset"
+  },
+
+  "constraint_set": {
+    "constraint_id": "constraints.v1",
+    "admissible": false
+  },
+
+  "safety_predicate": {
+    "safe": true
+  },
+
+  "artifact": {
+    "present": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "disallowed_asset",
+
+  "invariants": [
+    "Asset namespace must be within governed registry"
+  ]
+}
