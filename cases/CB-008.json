@@ -1,0 +1,11 @@
+{
+    "case_id":  "CB-008",
+    "title":  "Render Attempt After Failed Verification Blocked",
+    "category":  "Render Boundary Enforcement",
+    "expected_result":  "blocked",
+    "expected_reason":  "verification_failed_no_effectuation",
+    "invariants":  [
+                       "Invariant 3 — Fail-Closed Invalid State Handling",
+                       "Invariant 8 — Render Requires Valid Authorization Artifact"
+                   ]
+}

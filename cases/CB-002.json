@@ -1,0 +1,10 @@
+{
+    "case_id":  "CB-002",
+    "title":  "Invalid RAA Blocks Render",
+    "category":  "Render Boundary Enforcement",
+    "expected_result":  "blocked",
+    "expected_reason":  "invalid_signature",
+    "invariants":  [
+                       "Invariant 8 — Render Requires Valid Authorization Artifact"
+                   ]
+}

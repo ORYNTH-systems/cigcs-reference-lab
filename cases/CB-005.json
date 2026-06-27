@@ -1,0 +1,10 @@
+{
+    "case_id":  "CB-005",
+    "title":  "Wrong Constraint ID Blocks Render",
+    "category":  "Render Boundary Enforcement",
+    "expected_result":  "blocked",
+    "expected_reason":  "constraint_id_mismatch",
+    "invariants":  [
+                       "Invariant 8 — Render Requires Valid Authorization Artifact"
+                   ]
+}

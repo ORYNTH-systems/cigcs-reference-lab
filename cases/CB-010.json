@@ -1,0 +1,11 @@
+{
+    "case_id":  "CB-010",
+    "title":  "Boundary Verifier Fails Closed on Timeout",
+    "category":  "Render Boundary Enforcement",
+    "expected_result":  "blocked",
+    "expected_reason":  "verification_timeout",
+    "invariants":  [
+                       "Invariant 3 — Fail-Closed Invalid State Handling",
+                       "Invariant 8 — Render Requires Valid Authorization Artifact"
+                   ]
+}

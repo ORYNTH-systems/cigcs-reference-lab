@@ -1,0 +1,10 @@
+{
+    "case_id":  "CB-004",
+    "title":  "Wrong Glyph ID Blocks Render",
+    "category":  "Render Boundary Enforcement",
+    "expected_result":  "blocked",
+    "expected_reason":  "glyph_id_mismatch",
+    "invariants":  [
+                       "Invariant 8 — Render Requires Valid Authorization Artifact"
+                   ]
+}

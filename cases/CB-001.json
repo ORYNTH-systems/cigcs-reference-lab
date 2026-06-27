@@ -1,0 +1,10 @@
+{
+    "case_id":  "CB-001",
+    "title":  "No RAA, No Render",
+    "category":  "Render Boundary Enforcement",
+    "expected_result":  "blocked",
+    "expected_reason":  "missing_artifact",
+    "invariants":  [
+                       "Invariant 8 — Render Requires Valid Authorization Artifact"
+                   ]
+}

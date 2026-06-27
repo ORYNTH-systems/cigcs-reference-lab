@@ -1,0 +1,10 @@
+{
+    "case_id":  "CB-007",
+    "title":  "Direct Adaptive-Source Render Path Blocked",
+    "category":  "Render Boundary Enforcement",
+    "expected_result":  "blocked",
+    "expected_reason":  "enforcement_bypass_attempt",
+    "invariants":  [
+                       "Invariant 7 — No Bypass of Enforcement"
+                   ]
+}

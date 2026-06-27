@@ -1,0 +1,10 @@
+{
+    "case_id":  "CB-003",
+    "title":  "Expired RAA Blocks Render",
+    "category":  "Render Boundary Enforcement",
+    "expected_result":  "blocked",
+    "expected_reason":  "artifact_expired",
+    "invariants":  [
+                       "Invariant 8 — Render Requires Valid Authorization Artifact"
+                   ]
+}
