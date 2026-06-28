@@ -1,0 +1,27 @@
+{
+  "case_id": "CB-057",
+  "title": "Integrity Noise Injection Attack",
+  "category": "Stress Saturation",
+
+  "glyph": {
+    "glyph_id": "glyph.stress.057",
+    "canonical_hash": "hash.stress.057",
+    "attack_vector": "noise_injection"
+  },
+
+  "constraint_set": { "admissible": true },
+
+  "safety_predicate": { "safe": true },
+
+  "artifact": {
+    "present": true,
+    "noise_level": "extreme"
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "integrity_noise_violation",
+
+  "invariants": [
+    "Integrity chain must resist stochastic corruption"
+  ]
+}

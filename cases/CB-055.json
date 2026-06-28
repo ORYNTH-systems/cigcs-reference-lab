@@ -1,0 +1,27 @@
+{
+  "case_id": "CB-055",
+  "title": "Adversarial Replay Amplification Loop",
+  "category": "Stress Saturation",
+
+  "glyph": {
+    "glyph_id": "glyph.stress.055",
+    "canonical_hash": "hash.stress.055",
+    "attack_vector": "replay_loop"
+  },
+
+  "constraint_set": { "admissible": true },
+
+  "safety_predicate": { "safe": true },
+
+  "artifact": {
+    "present": true,
+    "replay_cycles": 1000
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "replay_amplification_detected",
+
+  "invariants": [
+    "Replay amplification must not alter system determinism"
+  ]
+}

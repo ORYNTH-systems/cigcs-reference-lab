@@ -1,0 +1,24 @@
+{
+  "case_id": "CB-059",
+  "title": "System-Wide Constraint Pressure Lock",
+  "category": "Stress Saturation",
+
+  "glyph": {
+    "glyph_id": "glyph.stress.059",
+    "canonical_hash": "hash.stress.059",
+    "attack_vector": "constraint_lock"
+  },
+
+  "constraint_set": { "admissible": true },
+
+  "safety_predicate": { "safe": false },
+
+  "artifact": { "present": true, "constraint_pressure": "max" },
+
+  "expected_result": "blocked",
+  "expected_reason": "constraint_lock_detected",
+
+  "invariants": [
+    "Constraint system must not deadlock or degrade"
+  ]
+}

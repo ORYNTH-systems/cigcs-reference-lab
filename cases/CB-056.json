@@ -1,0 +1,24 @@
+{
+  "case_id": "CB-056",
+  "title": "Cross-Layer Drift Under Load",
+  "category": "Stress Saturation",
+
+  "glyph": {
+    "glyph_id": "glyph.stress.056",
+    "canonical_hash": "hash.stress.056",
+    "attack_vector": "layer_drift"
+  },
+
+  "constraint_set": { "admissible": true },
+
+  "safety_predicate": { "safe": true },
+
+  "artifact": { "present": true, "load": "max" },
+
+  "expected_result": "blocked",
+  "expected_reason": "layer_drift_detected",
+
+  "invariants": [
+    "All layers must remain synchronized under load"
+  ]
+}

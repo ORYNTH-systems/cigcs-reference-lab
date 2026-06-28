@@ -1,0 +1,24 @@
+{
+  "case_id": "CB-053",
+  "title": "Integrity Chain Depth Saturation",
+  "category": "Stress Saturation",
+
+  "glyph": {
+    "glyph_id": "glyph.stress.053",
+    "canonical_hash": "hash.stress.053",
+    "attack_vector": "chain_depth_pressure"
+  },
+
+  "constraint_set": { "admissible": true },
+
+  "safety_predicate": { "safe": true },
+
+  "artifact": { "present": true, "chain_depth": 9999 },
+
+  "expected_result": "blocked",
+  "expected_reason": "chain_saturation_detected",
+
+  "invariants": [
+    "Integrity chain must remain stable under depth expansion"
+  ]
+}

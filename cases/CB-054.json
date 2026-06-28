@@ -1,0 +1,29 @@
+{
+  "case_id": "CB-054",
+  "title": "Multi-Layer Contradiction Cascade",
+  "category": "Stress Saturation",
+
+  "glyph": {
+    "glyph_id": "glyph.stress.054",
+    "canonical_hash": "hash.stress.054",
+    "attack_vector": "cascade_contradiction"
+  },
+
+  "constraint_set": { "admissible": true },
+
+  "safety_predicate": { "safe": false },
+
+  "artifact": {
+    "present": true,
+    "admissibility_conflict": true,
+    "safety_conflict": true,
+    "render_conflict": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "multi_layer_cascade_failure",
+
+  "invariants": [
+    "Any multi-layer contradiction must collapse system state"
+  ]
+}

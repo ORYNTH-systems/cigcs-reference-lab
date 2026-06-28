@@ -1,0 +1,28 @@
+{
+  "case_id": "CB-060",
+  "title": "Full-System Saturation Failure Boundary",
+  "category": "Stress Saturation",
+
+  "glyph": {
+    "glyph_id": "glyph.stress.060",
+    "canonical_hash": "hash.stress.060",
+    "attack_vector": "global_saturation"
+  },
+
+  "constraint_set": { "admissible": true },
+
+  "safety_predicate": { "safe": false },
+
+  "artifact": {
+    "present": true,
+    "global_load": "maximum",
+    "adversarial_density": "maximum"
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "system_saturation_boundary_reached",
+
+  "invariants": [
+    "System must remain fail-closed at global saturation"
+  ]
+}

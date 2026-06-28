@@ -1,0 +1,24 @@
+{
+  "case_id": "CB-058",
+  "title": "Verifier Overload Collapse Attempt",
+  "category": "Stress Saturation",
+
+  "glyph": {
+    "glyph_id": "glyph.stress.058",
+    "canonical_hash": "hash.stress.058",
+    "attack_vector": "verifier_saturation"
+  },
+
+  "constraint_set": { "admissible": true },
+
+  "safety_predicate": { "safe": false },
+
+  "artifact": { "present": true, "verification_load": "max" },
+
+  "expected_result": "blocked",
+  "expected_reason": "verifier_saturation_failure",
+
+  "invariants": [
+    "Verifier must remain stable under full corpus load"
+  ]
+}

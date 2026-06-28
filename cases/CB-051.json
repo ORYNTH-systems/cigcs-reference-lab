@@ -1,0 +1,24 @@
+{
+  "case_id": "CB-051",
+  "title": "Recursive Adversarial Stack Injection",
+  "category": "Stress Saturation",
+
+  "glyph": {
+    "glyph_id": "glyph.stress.051",
+    "canonical_hash": "hash.stress.051",
+    "attack_vector": "recursive_attack_stack"
+  },
+
+  "constraint_set": { "admissible": true },
+
+  "safety_predicate": { "safe": false },
+
+  "artifact": { "present": true, "stack_depth": 3 },
+
+  "expected_result": "blocked",
+  "expected_reason": "recursive_attack_detected",
+
+  "invariants": [
+    "Stacked adversarial inputs must collapse to BLOCKED"
+  ]
+}

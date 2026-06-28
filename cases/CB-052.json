@@ -1,0 +1,24 @@
+{
+  "case_id": "CB-052",
+  "title": "Consistency Exhaustion Threshold",
+  "category": "Stress Saturation",
+
+  "glyph": {
+    "glyph_id": "glyph.stress.052",
+    "canonical_hash": "hash.stress.052",
+    "attack_vector": "consistency_overload"
+  },
+
+  "constraint_set": { "admissible": true },
+
+  "safety_predicate": { "safe": true },
+
+  "artifact": { "present": true, "conflict_density": "max" },
+
+  "expected_result": "blocked",
+  "expected_reason": "consistency_overflow",
+
+  "invariants": [
+    "Consistency engine must not degrade under conflict density"
+  ]
+}
