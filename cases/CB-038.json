@@ -1,0 +1,29 @@
+{
+  "case_id": "CB-038",
+  "title": "Evidence Chain Fork Attempt Blocked",
+  "category": "Hash Integrity Stress",
+
+  "glyph": {
+    "glyph_id": "glyph.hash.038",
+    "canonical_hash": "hash.hash.038",
+    "pose_valid": true,
+    "state_valid": true
+  },
+
+  "constraint_set": { "constraint_id": "constraints.v1", "admissible": true },
+
+  "safety_predicate": { "safe": true },
+
+  "artifact": {
+    "present": true,
+    "chain_fork_attempt": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "evidence_chain_fork_detected",
+
+  "invariants": [
+    "Evidence chain must remain linear and non-forkable",
+    "Fork attempts invalidate system integrity"
+  ]
+}

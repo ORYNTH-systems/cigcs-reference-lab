@@ -1,0 +1,38 @@
+{
+  "case_id": "CB-029",
+  "title": "Safety Override Attempt Rejected by Consistency Engine",
+  "category": "Safety Predicate Layer (Consistency-Aware)",
+
+  "glyph": {
+    "glyph_id": "glyph.consistency.029",
+    "canonical_hash": "hash.consistency.029",
+    "pose_valid": true,
+    "state_valid": true
+  },
+
+  "constraint_set": {
+    "constraint_id": "constraints.v1",
+    "admissible": true
+  },
+
+  "safety_predicate": {
+    "safe": false,
+    "override_attempt": true
+  },
+
+  "artifact": {
+    "present": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "consistency_engine_veto",
+
+  "consistency_check": {
+    "C": 0,
+    "reason": "override_violation_detected"
+  },
+
+  "invariants": [
+    "Consistency engine invalidates unsafe override attempts"
+  ]
+}

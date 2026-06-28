@@ -1,0 +1,29 @@
+{
+  "case_id": "CB-050",
+  "title": "Integrity Saturation Failure Boundary",
+  "category": "Adversarial Integrity Stress",
+
+  "glyph": {
+    "glyph_id": "glyph.adv.050",
+    "canonical_hash": "hash.adv.050",
+    "pose_valid": true,
+    "state_valid": true,
+    "attack_vector": "saturation_stress"
+  },
+
+  "constraint_set": { "constraint_id": "constraints.v1", "admissible": true },
+
+  "safety_predicate": { "safe": false },
+
+  "artifact": {
+    "present": true,
+    "stress_level": "max"
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "system_saturation_fail_closed",
+
+  "invariants": [
+    "System must fail-closed under maximum adversarial stress"
+  ]
+}

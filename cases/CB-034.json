@@ -1,0 +1,25 @@
+{
+  "case_id": "CB-034",
+  "title": "Replay Chain Integrity Violation",
+  "category": "Replay Resilience",
+
+  "glyph": {
+    "glyph_id": "glyph.replay.034",
+    "canonical_hash": "hash.replay.034",
+    "pose_valid": true,
+    "state_valid": true
+  },
+
+  "constraint_set": { "constraint_id": "constraints.v1", "admissible": true },
+
+  "safety_predicate": { "safe": true },
+
+  "artifact": { "present": true, "chain_tampered": true },
+
+  "expected_result": "blocked",
+  "expected_reason": "hash_chain_tampering_detected",
+
+  "invariants": [
+    "Any chain mutation invalidates full evidence system"
+  ]
+}

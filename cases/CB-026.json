@@ -1,0 +1,39 @@
+{
+  "case_id": "CB-026",
+  "title": "Multi-Source Safety Conflict Collapse",
+  "category": "Safety Predicate Layer (Consistency-Aware)",
+
+  "glyph": {
+    "glyph_id": "glyph.consistency.026",
+    "canonical_hash": "hash.consistency.026",
+    "pose_valid": true,
+    "state_valid": true
+  },
+
+  "constraint_set": {
+    "constraint_id": "constraints.v1",
+    "admissible": true
+  },
+
+  "safety_predicate": {
+    "safe": false,
+    "risk_sources": ["model_A", "model_B"],
+    "conflict": true
+  },
+
+  "artifact": {
+    "present": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "safety_conflict_indeterminate",
+
+  "consistency_check": {
+    "C": 0,
+    "reason": "cross_source_safety_inconsistency"
+  },
+
+  "invariants": [
+    "Safety conflict across sources triggers global fail-closed state"
+  ]
+}

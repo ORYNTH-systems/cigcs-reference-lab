@@ -1,0 +1,31 @@
+{
+  "case_id": "CB-040",
+  "title": "Integrity Collapse Under Multi-Attack Stress",
+  "category": "Hash Integrity Stress",
+
+  "glyph": {
+    "glyph_id": "glyph.hash.040",
+    "canonical_hash": "hash.hash.040",
+    "pose_valid": true,
+    "state_valid": true
+  },
+
+  "constraint_set": { "constraint_id": "constraints.v1", "admissible": true },
+
+  "safety_predicate": { "safe": true },
+
+  "artifact": {
+    "present": true,
+    "nonce_reused": true,
+    "hash_collision_attempt": true,
+    "chain_fork_attempt": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "compound_integrity_failure",
+
+  "invariants": [
+    "Multi-vector attacks collapse integrity state",
+    "System must fail-closed under combined cryptographic stress"
+  ]
+}

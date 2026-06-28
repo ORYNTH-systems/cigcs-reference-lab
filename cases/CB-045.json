@@ -1,0 +1,29 @@
+{
+  "case_id": "CB-045",
+  "title": "Replay Mutation Attack",
+  "category": "Adversarial Integrity Stress",
+
+  "glyph": {
+    "glyph_id": "glyph.adv.045",
+    "canonical_hash": "hash.adv.045",
+    "pose_valid": true,
+    "state_valid": true,
+    "attack_vector": "replay_mutation"
+  },
+
+  "constraint_set": { "constraint_id": "constraints.v1", "admissible": true },
+
+  "safety_predicate": { "safe": true },
+
+  "artifact": {
+    "present": true,
+    "mutated_replay": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "replay_tampering_detected",
+
+  "invariants": [
+    "Replay must produce identical evaluation or be rejected"
+  ]
+}

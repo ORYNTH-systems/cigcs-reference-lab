@@ -1,0 +1,29 @@
+{
+  "case_id": "CB-037",
+  "title": "Hash Collision Simulation Rejected",
+  "category": "Hash Integrity Stress",
+
+  "glyph": {
+    "glyph_id": "glyph.hash.037",
+    "canonical_hash": "hash_collision_simulated",
+    "pose_valid": true,
+    "state_valid": true
+  },
+
+  "constraint_set": { "constraint_id": "constraints.v1", "admissible": true },
+
+  "safety_predicate": { "safe": true },
+
+  "artifact": {
+    "present": true,
+    "hash_collision_attempt": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "hash_collision_detected",
+
+  "invariants": [
+    "Hash integrity must be collision-resistant under governance model",
+    "Simulated collision must fail validation"
+  ]
+}

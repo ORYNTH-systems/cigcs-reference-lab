@@ -1,0 +1,25 @@
+{
+  "case_id": "CB-032",
+  "title": "Replay Divergence Detection",
+  "category": "Replay Resilience",
+
+  "glyph": {
+    "glyph_id": "glyph.replay.032",
+    "canonical_hash": "hash.replay.032",
+    "pose_valid": true,
+    "state_valid": true
+  },
+
+  "constraint_set": { "constraint_id": "constraints.v1", "admissible": true },
+
+  "safety_predicate": { "safe": true },
+
+  "artifact": { "present": true },
+
+  "expected_result": "blocked",
+  "expected_reason": "non_deterministic_replay_detected",
+
+  "invariants": [
+    "Any divergence across replay instances invalidates system trust"
+  ]
+}

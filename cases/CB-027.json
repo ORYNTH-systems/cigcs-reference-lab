@@ -1,0 +1,39 @@
+{
+  "case_id": "CB-027",
+  "title": "Safety Threshold Breach Overrides Admissibility Success",
+  "category": "Safety Predicate Layer (Consistency-Aware)",
+
+  "glyph": {
+    "glyph_id": "glyph.consistency.027",
+    "canonical_hash": "hash.consistency.027",
+    "pose_valid": true,
+    "state_valid": true
+  },
+
+  "constraint_set": {
+    "constraint_id": "constraints.v1",
+    "admissible": true
+  },
+
+  "safety_predicate": {
+    "safe": false,
+    "risk_score": 0.97,
+    "threshold": 0.75
+  },
+
+  "artifact": {
+    "present": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "safety_threshold_violation",
+
+  "consistency_check": {
+    "C": 1,
+    "note": "single-layer veto applied"
+  },
+
+  "invariants": [
+    "Safety layer dominates admissibility under threshold breach"
+  ]
+}

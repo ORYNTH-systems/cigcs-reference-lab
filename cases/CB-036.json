@@ -1,0 +1,30 @@
+{
+  "case_id": "CB-036",
+  "title": "Nonce Replay Attempt Detection",
+  "category": "Hash Integrity Stress",
+
+  "glyph": {
+    "glyph_id": "glyph.hash.036",
+    "canonical_hash": "hash.hash.036",
+    "nonce": "abc123",
+    "pose_valid": true,
+    "state_valid": true
+  },
+
+  "constraint_set": { "constraint_id": "constraints.v1", "admissible": true },
+
+  "safety_predicate": { "safe": true },
+
+  "artifact": {
+    "present": true,
+    "nonce_reused": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "nonce_replay_detected",
+
+  "invariants": [
+    "Nonce reuse invalidates execution trust",
+    "Replay attacks must be fail-closed"
+  ]
+}

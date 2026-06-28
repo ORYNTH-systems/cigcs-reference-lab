@@ -1,0 +1,38 @@
+{
+  "case_id": "CB-028",
+  "title": "Safety Evaluation Timeout Collapse",
+  "category": "Safety Predicate Layer (Consistency-Aware)",
+
+  "glyph": {
+    "glyph_id": "glyph.consistency.028",
+    "canonical_hash": "hash.consistency.028",
+    "pose_valid": true,
+    "state_valid": true
+  },
+
+  "constraint_set": {
+    "constraint_id": "constraints.v1",
+    "admissible": true
+  },
+
+  "safety_predicate": {
+    "safe": null,
+    "evaluation_state": "timeout"
+  },
+
+  "artifact": {
+    "present": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "safety_indeterminate_fail_closed",
+
+  "consistency_check": {
+    "C": 0,
+    "reason": "undefined_safety_state"
+  },
+
+  "invariants": [
+    "Indeterminate safety state collapses to unsafe"
+  ]
+}

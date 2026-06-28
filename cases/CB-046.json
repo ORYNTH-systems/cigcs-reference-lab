@@ -1,0 +1,26 @@
+{
+  "case_id": "CB-046",
+  "title": "Cross-Layer State Desynchronization",
+  "category": "Adversarial Integrity Stress",
+
+  "glyph": {
+    "glyph_id": "glyph.adv.046",
+    "canonical_hash": "hash.adv.046",
+    "pose_valid": true,
+    "state_valid": true,
+    "attack_vector": "layer_desync"
+  },
+
+  "constraint_set": { "constraint_id": "constraints.v1", "admissible": true },
+
+  "safety_predicate": { "safe": true },
+
+  "artifact": { "present": true },
+
+  "expected_result": "blocked",
+  "expected_reason": "cross_layer_inconsistency",
+
+  "invariants": [
+    "All layers must evaluate same ? consistently"
+  ]
+}

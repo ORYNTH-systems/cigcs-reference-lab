@@ -1,0 +1,29 @@
+{
+  "case_id": "CB-039",
+  "title": "Evidence Injection Attack Rejected",
+  "category": "Hash Integrity Stress",
+
+  "glyph": {
+    "glyph_id": "glyph.hash.039",
+    "canonical_hash": "hash.hash.039",
+    "pose_valid": true,
+    "state_valid": true
+  },
+
+  "constraint_set": { "constraint_id": "constraints.v1", "admissible": true },
+
+  "safety_predicate": { "safe": true },
+
+  "artifact": {
+    "present": true,
+    "external_evidence_injected": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "evidence_injection_detected",
+
+  "invariants": [
+    "External evidence cannot modify internal chain state",
+    "Injection attempts must be rejected"
+  ]
+}

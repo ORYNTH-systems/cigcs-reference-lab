@@ -1,0 +1,31 @@
+{
+  "case_id": "CB-049",
+  "title": "Compound Multi-Attack Override Attempt",
+  "category": "Adversarial Integrity Stress",
+
+  "glyph": {
+    "glyph_id": "glyph.adv.049",
+    "canonical_hash": "hash.adv.049",
+    "pose_valid": true,
+    "state_valid": true,
+    "attack_vector": "compound_attack"
+  },
+
+  "constraint_set": { "constraint_id": "constraints.v1", "admissible": true },
+
+  "safety_predicate": { "safe": false },
+
+  "artifact": {
+    "present": true,
+    "nonce_reuse": true,
+    "chain_fork": true,
+    "inject_attempt": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "compound_integrity_attack",
+
+  "invariants": [
+    "Multi-vector attacks must collapse system state"
+  ]
+}

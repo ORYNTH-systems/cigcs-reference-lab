@@ -1,0 +1,29 @@
+{
+  "case_id": "CB-031",
+  "title": "Deterministic Replay Success",
+  "category": "Replay Resilience",
+
+  "glyph": {
+    "glyph_id": "glyph.replay.031",
+    "canonical_hash": "hash.replay.031",
+    "pose_valid": true,
+    "state_valid": true
+  },
+
+  "constraint_set": {
+    "constraint_id": "constraints.v1",
+    "admissible": true
+  },
+
+  "safety_predicate": { "safe": true },
+
+  "artifact": { "present": true },
+
+  "expected_result": "admitted",
+  "expected_reason": "deterministic_consistency",
+
+  "invariants": [
+    "Identical input produces identical output across all layers",
+    "Replay stability is required for system validity"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "CB-048",
+  "title": "Verifier Poisoning Attempt",
+  "category": "Adversarial Integrity Stress",
+
+  "glyph": {
+    "glyph_id": "glyph.adv.048",
+    "canonical_hash": "hash.adv.048",
+    "pose_valid": true,
+    "state_valid": true,
+    "attack_vector": "verifier_poison"
+  },
+
+  "constraint_set": { "constraint_id": "constraints.v1", "admissible": true },
+
+  "safety_predicate": { "safe": true },
+
+  "artifact": { "present": true },
+
+  "expected_result": "blocked",
+  "expected_reason": "verifier_integrity_protected",
+
+  "invariants": [
+    "Verifier operates independently of input mutation"
+  ]
+}

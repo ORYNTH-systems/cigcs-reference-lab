@@ -1,0 +1,29 @@
+{
+  "case_id": "CB-047",
+  "title": "Hash Collision Injection Under Load",
+  "category": "Adversarial Integrity Stress",
+
+  "glyph": {
+    "glyph_id": "glyph.adv.047",
+    "canonical_hash": "forced_collision_hash",
+    "pose_valid": true,
+    "state_valid": true,
+    "attack_vector": "hash_collision_load"
+  },
+
+  "constraint_set": { "constraint_id": "constraints.v1", "admissible": true },
+
+  "safety_predicate": { "safe": true },
+
+  "artifact": {
+    "present": true,
+    "collision_attempt": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "hash_integrity_violation",
+
+  "invariants": [
+    "Hash uniqueness must remain stable under adversarial pressure"
+  ]
+}

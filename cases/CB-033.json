@@ -1,0 +1,25 @@
+{
+  "case_id": "CB-033",
+  "title": "Evidence Hash Stability Under Identical Input",
+  "category": "Replay Resilience",
+
+  "glyph": {
+    "glyph_id": "glyph.replay.033",
+    "canonical_hash": "hash.replay.033",
+    "pose_valid": true,
+    "state_valid": true
+  },
+
+  "constraint_set": { "constraint_id": "constraints.v1", "admissible": true },
+
+  "safety_predicate": { "safe": true },
+
+  "artifact": { "present": true },
+
+  "expected_result": "admitted",
+  "expected_reason": "hash_stable_replay",
+
+  "invariants": [
+    "Evidence hash must remain invariant across identical executions"
+  ]
+}

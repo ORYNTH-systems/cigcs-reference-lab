@@ -1,0 +1,38 @@
+{
+  "case_id": "CB-030",
+  "title": "Compound Safety + Admissibility Collapse",
+  "category": "Safety Predicate Layer (Consistency-Aware)",
+
+  "glyph": {
+    "glyph_id": "glyph.consistency.030",
+    "canonical_hash": "hash.consistency.030",
+    "pose_valid": false,
+    "state_valid": false
+  },
+
+  "constraint_set": {
+    "constraint_id": "constraints.v1",
+    "admissible": false
+  },
+
+  "safety_predicate": {
+    "safe": false,
+    "risk_score": 0.99
+  },
+
+  "artifact": {
+    "present": true
+  },
+
+  "expected_result": "blocked",
+  "expected_reason": "compound_layer_failure",
+
+  "consistency_check": {
+    "C": 0,
+    "reason": "multi_layer_failure"
+  },
+
+  "invariants": [
+    "Multi-layer failure enforces absolute rejection"
+  ]
+}
