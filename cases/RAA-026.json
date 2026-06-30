@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Artifact Reinstatement",
+    "case_id":  "RAA-026",
+    "expected_reason":  "artifact_reinstated",
+    "glyph":  {
+                  "canonical_hash":  "raa026-canonical-hash",
+                  "glyph_id":  "CGO-RAA-026"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

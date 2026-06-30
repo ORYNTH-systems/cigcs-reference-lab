@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Issuer Authenticity Verification",
+    "case_id":  "RAA-013",
+    "expected_reason":  "issuer_authenticated",
+    "glyph":  {
+                  "canonical_hash":  "raa013-canonical-hash",
+                  "glyph_id":  "CGO-RAA-013"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

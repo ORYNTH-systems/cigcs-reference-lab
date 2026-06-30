@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Artifact Revocation",
+    "case_id":  "RAA-024",
+    "expected_reason":  "artifact_revoked",
+    "glyph":  {
+                  "canonical_hash":  "raa024-canonical-hash",
+                  "glyph_id":  "CGO-RAA-024"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

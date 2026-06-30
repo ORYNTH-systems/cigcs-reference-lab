@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Artifact Suspension",
+    "case_id":  "RAA-025",
+    "expected_reason":  "artifact_suspended",
+    "glyph":  {
+                  "canonical_hash":  "raa025-canonical-hash",
+                  "glyph_id":  "CGO-RAA-025"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Artifact Lifecycle Failure",
+    "case_id":  "RAA-029",
+    "expected_reason":  "artifact_lifecycle_failure",
+    "glyph":  {
+                  "canonical_hash":  "raa029-canonical-hash",
+                  "glyph_id":  "CGO-RAA-029"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

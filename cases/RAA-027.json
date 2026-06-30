@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Artifact State Transition",
+    "case_id":  "RAA-027",
+    "expected_reason":  "artifact_state_transition",
+    "glyph":  {
+                  "canonical_hash":  "raa027-canonical-hash",
+                  "glyph_id":  "CGO-RAA-027"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

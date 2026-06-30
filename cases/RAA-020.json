@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Verification Baseline",
+    "case_id":  "RAA-020",
+    "expected_reason":  "verification_baseline",
+    "glyph":  {
+                  "canonical_hash":  "raa020-canonical-hash",
+                  "glyph_id":  "CGO-RAA-020"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

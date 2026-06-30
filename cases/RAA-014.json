@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Issuer Authenticity Failure",
+    "case_id":  "RAA-014",
+    "expected_reason":  "issuer_authentication_failed",
+    "glyph":  {
+                  "canonical_hash":  "raa014-canonical-hash",
+                  "glyph_id":  "CGO-RAA-014"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

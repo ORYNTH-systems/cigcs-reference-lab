@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Artifact Renewal",
+    "case_id":  "RAA-023",
+    "expected_reason":  "artifact_renewed",
+    "glyph":  {
+                  "canonical_hash":  "raa023-canonical-hash",
+                  "glyph_id":  "CGO-RAA-023"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

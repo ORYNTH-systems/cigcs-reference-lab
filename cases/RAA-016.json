@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Artifact Hash Failure",
+    "case_id":  "RAA-016",
+    "expected_reason":  "artifact_hash_invalid",
+    "glyph":  {
+                  "canonical_hash":  "raa016-canonical-hash",
+                  "glyph_id":  "CGO-RAA-016"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

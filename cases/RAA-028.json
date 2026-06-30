@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Artifact Lifecycle Completion",
+    "case_id":  "RAA-028",
+    "expected_reason":  "artifact_lifecycle_completed",
+    "glyph":  {
+                  "canonical_hash":  "raa028-canonical-hash",
+                  "glyph_id":  "CGO-RAA-028"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

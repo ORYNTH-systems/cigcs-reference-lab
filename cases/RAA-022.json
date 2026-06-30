@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Artifact Expiration",
+    "case_id":  "RAA-022",
+    "expected_reason":  "artifact_expired",
+    "glyph":  {
+                  "canonical_hash":  "raa022-canonical-hash",
+                  "glyph_id":  "CGO-RAA-022"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

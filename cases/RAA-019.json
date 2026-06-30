@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Complete Verification Success",
+    "case_id":  "RAA-019",
+    "expected_reason":  "complete_verification_success",
+    "glyph":  {
+                  "canonical_hash":  "raa019-canonical-hash",
+                  "glyph_id":  "CGO-RAA-019"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

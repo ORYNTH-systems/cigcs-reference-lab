@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Artifact Signature Failure",
+    "case_id":  "RAA-012",
+    "expected_reason":  "artifact_signature_invalid",
+    "glyph":  {
+                  "canonical_hash":  "raa012-canonical-hash",
+                  "glyph_id":  "CGO-RAA-012"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
