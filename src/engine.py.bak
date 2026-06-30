@@ -1,13 +1,11 @@
 import json
 import os
 import hashlib
-from evaluator import CIGCSEvaluator
 
 class CIGCSEngine:
 
     def __init__(self):
         self.chain = []
-        self.evaluator = CIGCSEvaluator()
 
     # -------------------------
     # CORE CONSTRAINTS
@@ -28,15 +26,13 @@ class CIGCSEngine:
             case.get("constraint_set", {}).get("admissible") is True
         )
 
-    def evaluate(self, case):
-        return self.evaluator.evaluate_case(case)
-
     # -------------------------
     # ADVERSARIAL PERTURBATION
     # -------------------------
 
     def perturb(self, case):
-        return json.loads(json.dumps(case))
+        # deterministic "stress transform"
+        return json.loads(json.dumps(case))  # structural clone
 
     def stability(self, case):
         base = self.evaluate(case)
@@ -44,7 +40,7 @@ class CIGCSEngine:
         return 0 if base == pert else 1
 
     # -------------------------
-    # DELTA OPERATOR
+    # ? OPERATOR (FORMALIZED)
     # -------------------------
 
     def delta(self, case):
@@ -69,7 +65,7 @@ class CIGCSEngine:
             if not file.endswith(".json"):
                 continue
 
-            with open(os.path.join(case_dir, file), "r", encoding="utf-8-sig", errors="replace") as f:
+            with open(os.path.join(case_dir, file), "r") as f:
                 case = json.load(f)
 
             result_state = self.delta(case)
@@ -79,7 +75,7 @@ class CIGCSEngine:
                 "state": result_state
             }
 
-            h = hashlib.sha256(json.dumps(evidence, sort_keys=True).encode()).hexdigest()
+            h = hashlib.sha256(str(evidence).encode()).hexdigest()
             self.chain.append(h)
 
             evidence["hash"] = h
