@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Electrical Hazard",
+    "case_id":  "SB-015",
+    "expected_reason":  "electrical_hazard_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb015-canonical-hash",
+                  "glyph_id":  "CGO-SB-015"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Biological Hazard",
+    "case_id":  "SB-018",
+    "expected_reason":  "biological_hazard_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb018-canonical-hash",
+                  "glyph_id":  "CGO-SB-018"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

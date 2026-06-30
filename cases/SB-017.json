@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Chemical Hazard",
+    "case_id":  "SB-017",
+    "expected_reason":  "chemical_hazard_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb017-canonical-hash",
+                  "glyph_id":  "CGO-SB-017"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

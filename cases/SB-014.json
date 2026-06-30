@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Thermal Hazard",
+    "case_id":  "SB-014",
+    "expected_reason":  "thermal_hazard_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb014-canonical-hash",
+                  "glyph_id":  "CGO-SB-014"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Compound Hazard",
+    "case_id":  "SB-020",
+    "expected_reason":  "compound_hazard_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb020-canonical-hash",
+                  "glyph_id":  "CGO-SB-020"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

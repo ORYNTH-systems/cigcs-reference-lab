@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Operational Hazard",
+    "case_id":  "SB-019",
+    "expected_reason":  "operational_hazard_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb019-canonical-hash",
+                  "glyph_id":  "CGO-SB-019"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

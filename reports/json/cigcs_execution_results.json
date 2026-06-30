@@ -1,10 +1,10 @@
 {
   "summary": {
-    "total_cases": 100,
+    "total_cases": 110,
     "PASS": 22,
-    "BLOCK": 78,
+    "BLOCK": 88,
     "QUARANTINE": 0,
-    "expected_matches": 100,
+    "expected_matches": 110,
     "expected_mismatches": 0
   },
   "results": [
@@ -2407,8 +2407,248 @@
         "pass": true
       },
       "hash": "889c7da4fdee704d0f9339e97bf04c5965fe799439a4eaa011788562be0438c8"
+    },
+    {
+      "case_id": "SB-011",
+      "path": "cases/SB-011.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "SB-011",
+        "admissibility": true,
+        "safety": false,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": false,
+          "reason": "admissibility_safety_conflict"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "admissibility_safety_conflict",
+        "expected": "blocked",
+        "expected_reason": "environmental_hazard_detected",
+        "pass": true
+      },
+      "hash": "8a06870c97f2e0d51303d464954e47469c25d16019d7de7950f9c932baefdf98"
+    },
+    {
+      "case_id": "SB-012",
+      "path": "cases/SB-012.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "SB-012",
+        "admissibility": true,
+        "safety": false,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": false,
+          "reason": "admissibility_safety_conflict"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "admissibility_safety_conflict",
+        "expected": "blocked",
+        "expected_reason": "physical_hazard_detected",
+        "pass": true
+      },
+      "hash": "5ca9ba394e59ec36228ac9ace1faff16c962f93ddb61942757b6ff5c58810057"
+    },
+    {
+      "case_id": "SB-013",
+      "path": "cases/SB-013.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "SB-013",
+        "admissibility": true,
+        "safety": false,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": false,
+          "reason": "admissibility_safety_conflict"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "admissibility_safety_conflict",
+        "expected": "blocked",
+        "expected_reason": "mechanical_hazard_detected",
+        "pass": true
+      },
+      "hash": "45b62bdba1aba71c79c21234a03be8f56252f06ec1c66072bfd39a1d5f07c889"
+    },
+    {
+      "case_id": "SB-014",
+      "path": "cases/SB-014.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "SB-014",
+        "admissibility": true,
+        "safety": false,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": false,
+          "reason": "admissibility_safety_conflict"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "admissibility_safety_conflict",
+        "expected": "blocked",
+        "expected_reason": "thermal_hazard_detected",
+        "pass": true
+      },
+      "hash": "8bb85c56fb9249c60eef2b790abbbf8cd1deb85f0f85f452049cb4afcbfc107a"
+    },
+    {
+      "case_id": "SB-015",
+      "path": "cases/SB-015.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "SB-015",
+        "admissibility": true,
+        "safety": false,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": false,
+          "reason": "admissibility_safety_conflict"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "admissibility_safety_conflict",
+        "expected": "blocked",
+        "expected_reason": "electrical_hazard_detected",
+        "pass": true
+      },
+      "hash": "8da1dc99bf61583620056a2fb12ba20077078c7cc6d3164dd05963a73e2a1dfb"
+    },
+    {
+      "case_id": "SB-016",
+      "path": "cases/SB-016.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "SB-016",
+        "admissibility": true,
+        "safety": false,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": false,
+          "reason": "admissibility_safety_conflict"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "admissibility_safety_conflict",
+        "expected": "blocked",
+        "expected_reason": "radiation_hazard_detected",
+        "pass": true
+      },
+      "hash": "d8d2c08601f4a401f180a587444024599357c56957c83e882aee8e068e119c0d"
+    },
+    {
+      "case_id": "SB-017",
+      "path": "cases/SB-017.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "SB-017",
+        "admissibility": true,
+        "safety": false,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": false,
+          "reason": "admissibility_safety_conflict"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "admissibility_safety_conflict",
+        "expected": "blocked",
+        "expected_reason": "chemical_hazard_detected",
+        "pass": true
+      },
+      "hash": "8ef7d5e91e1cb6db67d95c743f12edc75de1942751571e2ef2cc38b36f53415f"
+    },
+    {
+      "case_id": "SB-018",
+      "path": "cases/SB-018.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "SB-018",
+        "admissibility": true,
+        "safety": false,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": false,
+          "reason": "admissibility_safety_conflict"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "admissibility_safety_conflict",
+        "expected": "blocked",
+        "expected_reason": "biological_hazard_detected",
+        "pass": true
+      },
+      "hash": "b07a940b85278411ffab54cb205d5d7321a2d59e6eecdf3340062d2d430c4825"
+    },
+    {
+      "case_id": "SB-019",
+      "path": "cases/SB-019.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "SB-019",
+        "admissibility": true,
+        "safety": false,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": false,
+          "reason": "admissibility_safety_conflict"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "admissibility_safety_conflict",
+        "expected": "blocked",
+        "expected_reason": "operational_hazard_detected",
+        "pass": true
+      },
+      "hash": "10cc8d89cabe9e48009bd60c8e1a3528edd3e016c4481146aa1096e7dbc35f21"
+    },
+    {
+      "case_id": "SB-020",
+      "path": "cases/SB-020.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "SB-020",
+        "admissibility": true,
+        "safety": false,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": false,
+          "reason": "admissibility_safety_conflict"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "admissibility_safety_conflict",
+        "expected": "blocked",
+        "expected_reason": "compound_hazard_detected",
+        "pass": true
+      },
+      "hash": "8c6a5d061652786b97327569bd0e15da57f633fc2a6fbe44eeb056f4db16a328"
     }
   ],
-  "integrity_chain_length": 100,
+  "integrity_chain_length": 110,
   "status": "DELTA_ENGINE_DELEGATES_TO_CONSTITUTIONAL_EVALUATOR"
 }

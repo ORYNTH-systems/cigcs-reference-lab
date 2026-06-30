@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Mechanical Hazard",
+    "case_id":  "SB-013",
+    "expected_reason":  "mechanical_hazard_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb013-canonical-hash",
+                  "glyph_id":  "CGO-SB-013"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

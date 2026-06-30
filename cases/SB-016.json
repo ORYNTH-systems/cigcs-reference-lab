@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Radiation Hazard",
+    "case_id":  "SB-016",
+    "expected_reason":  "radiation_hazard_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb016-canonical-hash",
+                  "glyph_id":  "CGO-SB-016"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
