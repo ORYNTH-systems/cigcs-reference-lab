@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Distributed Constitutional Preservation",
+    "case_id":  "CE-049",
+    "expected_reason":  "distributed_constitutional_preservation",
+    "glyph":  {
+                  "canonical_hash":  "ce049-canonical-hash",
+                  "glyph_id":  "CGO-CE-049"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Cross-Node Constitutional Validation",
+    "case_id":  "CE-043",
+    "expected_reason":  "cross_node_constitutional_validation",
+    "glyph":  {
+                  "canonical_hash":  "ce043-canonical-hash",
+                  "glyph_id":  "CGO-CE-043"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

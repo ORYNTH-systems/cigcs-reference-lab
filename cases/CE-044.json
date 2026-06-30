@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Cross-Node Validation Failure",
+    "case_id":  "CE-044",
+    "expected_reason":  "cross_node_validation_failure",
+    "glyph":  {
+                  "canonical_hash":  "ce044-canonical-hash",
+                  "glyph_id":  "CGO-CE-044"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

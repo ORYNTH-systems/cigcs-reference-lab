@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Distributed Constitutional Divergence",
+    "case_id":  "CE-042",
+    "expected_reason":  "distributed_constitutional_divergence",
+    "glyph":  {
+                  "canonical_hash":  "ce042-canonical-hash",
+                  "glyph_id":  "CGO-CE-042"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  false
+                       }
+}

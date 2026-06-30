@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Distributed Consensus Failure",
+    "case_id":  "CE-048",
+    "expected_reason":  "distributed_consensus_failure",
+    "glyph":  {
+                  "canonical_hash":  "ce048-canonical-hash",
+                  "glyph_id":  "CGO-CE-048"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  false
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Distributed Constitutional Consensus",
+    "case_id":  "CE-047",
+    "expected_reason":  "distributed_constitutional_consensus",
+    "glyph":  {
+                  "canonical_hash":  "ce047-canonical-hash",
+                  "glyph_id":  "CGO-CE-047"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

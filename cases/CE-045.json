@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Distributed State Synchronization",
+    "case_id":  "CE-045",
+    "expected_reason":  "distributed_state_synchronization",
+    "glyph":  {
+                  "canonical_hash":  "ce045-canonical-hash",
+                  "glyph_id":  "CGO-CE-045"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

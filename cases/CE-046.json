@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Distributed Synchronization Failure",
+    "case_id":  "CE-046",
+    "expected_reason":  "distributed_synchronization_failure",
+    "glyph":  {
+                  "canonical_hash":  "ce046-canonical-hash",
+                  "glyph_id":  "CGO-CE-046"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,10 +1,10 @@
 {
   "summary": {
-    "total_cases": 330,
-    "PASS": 133,
-    "BLOCK": 197,
+    "total_cases": 340,
+    "PASS": 139,
+    "BLOCK": 201,
     "QUARANTINE": 0,
-    "expected_matches": 330,
+    "expected_matches": 340,
     "expected_mismatches": 0
   },
   "results": [
@@ -3127,6 +3127,246 @@
         "pass": true
       },
       "hash": "84f7495dd8b7aa8873fdc997615e317c80681cd1507ac86c38662e40679a5843"
+    },
+    {
+      "case_id": "CE-041",
+      "path": "cases/CE-041.json",
+      "state": "PASS",
+      "expected_state": "PASS",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CE-041",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": true,
+          "reason": "all_constraints_satisfied"
+        },
+        "blocked": false,
+        "admitted": true,
+        "reason": "all_constraints_satisfied",
+        "expected": "admitted",
+        "expected_reason": "distributed_constitutional_agreement",
+        "pass": true
+      },
+      "hash": "c33f9d050ac1a0b575adbdc37ce7d30a1ee95da68a3f4c718928802a5b934d78"
+    },
+    {
+      "case_id": "CE-042",
+      "path": "cases/CE-042.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CE-042",
+        "admissibility": false,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": false,
+          "reason": "constitutional_constraints_not_satisfied"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "constitutional_constraints_not_satisfied",
+        "expected": "blocked",
+        "expected_reason": "distributed_constitutional_divergence",
+        "pass": true
+      },
+      "hash": "1527be3c04a8bd62f0b6e287c853a3a662b5cde17c2b402700827a1b9e1cc35e"
+    },
+    {
+      "case_id": "CE-043",
+      "path": "cases/CE-043.json",
+      "state": "PASS",
+      "expected_state": "PASS",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CE-043",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": true,
+          "reason": "all_constraints_satisfied"
+        },
+        "blocked": false,
+        "admitted": true,
+        "reason": "all_constraints_satisfied",
+        "expected": "admitted",
+        "expected_reason": "cross_node_constitutional_validation",
+        "pass": true
+      },
+      "hash": "e8812651b0cecb12d609437daf343524117083d4ebb5ddc0d035912813486eb6"
+    },
+    {
+      "case_id": "CE-044",
+      "path": "cases/CE-044.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CE-044",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": false,
+        "consistency": {
+          "consistent": false,
+          "reason": "render_boundary_missing"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "render_boundary_missing",
+        "expected": "blocked",
+        "expected_reason": "cross_node_validation_failure",
+        "pass": true
+      },
+      "hash": "fd91ef89583c798a5f2bbb135c948daaed8474582b0e02f1fd7a4d20deb92e57"
+    },
+    {
+      "case_id": "CE-045",
+      "path": "cases/CE-045.json",
+      "state": "PASS",
+      "expected_state": "PASS",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CE-045",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": true,
+          "reason": "all_constraints_satisfied"
+        },
+        "blocked": false,
+        "admitted": true,
+        "reason": "all_constraints_satisfied",
+        "expected": "admitted",
+        "expected_reason": "distributed_state_synchronization",
+        "pass": true
+      },
+      "hash": "3c9c62e2707171c8cb4f1fbcea31696839dafd59f4a1914fa0d6053177b9da85"
+    },
+    {
+      "case_id": "CE-046",
+      "path": "cases/CE-046.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CE-046",
+        "admissibility": true,
+        "safety": false,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": false,
+          "reason": "admissibility_safety_conflict"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "admissibility_safety_conflict",
+        "expected": "blocked",
+        "expected_reason": "distributed_synchronization_failure",
+        "pass": true
+      },
+      "hash": "fe6a9dd91e37e99981bd58c2a3c32f714829fcc84a6990cb7fe4d55e7523648b"
+    },
+    {
+      "case_id": "CE-047",
+      "path": "cases/CE-047.json",
+      "state": "PASS",
+      "expected_state": "PASS",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CE-047",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": true,
+          "reason": "all_constraints_satisfied"
+        },
+        "blocked": false,
+        "admitted": true,
+        "reason": "all_constraints_satisfied",
+        "expected": "admitted",
+        "expected_reason": "distributed_constitutional_consensus",
+        "pass": true
+      },
+      "hash": "139bc7651b63586bf601f78317a6c3aa428a673817d156a8c73f442fb95687b3"
+    },
+    {
+      "case_id": "CE-048",
+      "path": "cases/CE-048.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CE-048",
+        "admissibility": false,
+        "safety": false,
+        "render_boundary": false,
+        "consistency": {
+          "consistent": false,
+          "reason": "constitutional_constraints_not_satisfied"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "constitutional_constraints_not_satisfied",
+        "expected": "blocked",
+        "expected_reason": "distributed_consensus_failure",
+        "pass": true
+      },
+      "hash": "b6d5f2b6736cb53733f9eef5adb838872aa4eb1f268c44831880ee717e7a17d7"
+    },
+    {
+      "case_id": "CE-049",
+      "path": "cases/CE-049.json",
+      "state": "PASS",
+      "expected_state": "PASS",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CE-049",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": true,
+          "reason": "all_constraints_satisfied"
+        },
+        "blocked": false,
+        "admitted": true,
+        "reason": "all_constraints_satisfied",
+        "expected": "admitted",
+        "expected_reason": "distributed_constitutional_preservation",
+        "pass": true
+      },
+      "hash": "de2740b4fd8652ce27704662d7aa8a5ac0f48f69a69cfc7982e4cc1aab97253e"
+    },
+    {
+      "case_id": "CE-050",
+      "path": "cases/CE-050.json",
+      "state": "PASS",
+      "expected_state": "PASS",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CE-050",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": true,
+          "reason": "all_constraints_satisfied"
+        },
+        "blocked": false,
+        "admitted": true,
+        "reason": "all_constraints_satisfied",
+        "expected": "admitted",
+        "expected_reason": "distributed_constitutional_baseline",
+        "pass": true
+      },
+      "hash": "e52ff039f8ff92b1252e4026f49a822b737887124f1a19f8feb3083f7c845730"
     },
     {
       "case_id": "RAA-001",
@@ -7929,6 +8169,6 @@
       "hash": "c484aa53dadf6a902c825fc2eccff90f28907a09658ae6c7557f638ec199d855"
     }
   ],
-  "integrity_chain_length": 330,
+  "integrity_chain_length": 340,
   "status": "DELTA_ENGINE_DELEGATES_TO_CONSTITUTIONAL_EVALUATOR"
 }
