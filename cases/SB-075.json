@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Predictive System Instability",
+    "case_id":  "SB-075",
+    "expected_reason":  "predictive_system_instability",
+    "glyph":  {
+                  "canonical_hash":  "sb075-canonical-hash",
+                  "glyph_id":  "CGO-SB-075"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

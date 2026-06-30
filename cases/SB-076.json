@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Predictive Environmental Failure",
+    "case_id":  "SB-076",
+    "expected_reason":  "predictive_environmental_failure",
+    "glyph":  {
+                  "canonical_hash":  "sb076-canonical-hash",
+                  "glyph_id":  "CGO-SB-076"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

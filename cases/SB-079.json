@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Predictive Recovery",
+    "case_id":  "SB-079",
+    "expected_reason":  "predictive_recovery_success",
+    "glyph":  {
+                  "canonical_hash":  "sb079-canonical-hash",
+                  "glyph_id":  "CGO-SB-079"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

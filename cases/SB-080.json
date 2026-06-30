@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Predictive Constitutional Preservation",
+    "case_id":  "SB-080",
+    "expected_reason":  "predictive_constitutional_preservation",
+    "glyph":  {
+                  "canonical_hash":  "sb080-canonical-hash",
+                  "glyph_id":  "CGO-SB-080"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

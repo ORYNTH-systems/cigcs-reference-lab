@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Trend Escalation",
+    "case_id":  "SB-072",
+    "expected_reason":  "trend_escalation_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb072-canonical-hash",
+                  "glyph_id":  "CGO-SB-072"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

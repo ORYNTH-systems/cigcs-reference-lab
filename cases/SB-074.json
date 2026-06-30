@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Predictive Resource Overload",
+    "case_id":  "SB-074",
+    "expected_reason":  "predictive_resource_overload",
+    "glyph":  {
+                  "canonical_hash":  "sb074-canonical-hash",
+                  "glyph_id":  "CGO-SB-074"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

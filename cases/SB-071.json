@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Forecast Hazard",
+    "case_id":  "SB-071",
+    "expected_reason":  "forecast_hazard_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb071-canonical-hash",
+                  "glyph_id":  "CGO-SB-071"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Predictive Collision",
+    "case_id":  "SB-073",
+    "expected_reason":  "predictive_collision_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb073-canonical-hash",
+                  "glyph_id":  "CGO-SB-073"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,10 +1,10 @@
 # CIGCS Execution Metrics
 
-Total Cases: 160
-PASS: 27
-BLOCK: 133
+Total Cases: 170
+PASS: 29
+BLOCK: 141
 QUARANTINE: 0
-Expected Matches: 160
+Expected Matches: 170
 Expected Mismatches: 0
-Integrity Chain Length: 160
+Integrity Chain Length: 170
 Status: DELTA_ENGINE_DELEGATES_TO_CONSTITUTIONAL_EVALUATOR

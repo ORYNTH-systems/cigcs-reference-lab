@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Predictive Operator Risk",
+    "case_id":  "SB-078",
+    "expected_reason":  "predictive_operator_risk",
+    "glyph":  {
+                  "canonical_hash":  "sb078-canonical-hash",
+                  "glyph_id":  "CGO-SB-078"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
