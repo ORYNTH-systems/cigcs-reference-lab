@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Indeterminate Safety",
+    "case_id":  "SB-003",
+    "expected_reason":  "indeterminate_safety",
+    "glyph":  {
+                  "canonical_hash":  "sb003-canonical-hash",
+                  "glyph_id":  "CGO-SB-003"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

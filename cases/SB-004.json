@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Missing Safety Evidence",
+    "case_id":  "SB-004",
+    "expected_reason":  "missing_safety_evidence",
+    "glyph":  {
+                  "canonical_hash":  "sb004-canonical-hash",
+                  "glyph_id":  "CGO-SB-004"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

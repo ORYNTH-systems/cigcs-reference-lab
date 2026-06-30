@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Explicit Unsafe State",
+    "case_id":  "SB-002",
+    "expected_reason":  "explicit_unsafe_state",
+    "glyph":  {
+                  "canonical_hash":  "sb002-canonical-hash",
+                  "glyph_id":  "CGO-SB-002"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

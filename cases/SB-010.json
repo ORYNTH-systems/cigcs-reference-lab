@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Canonical Safety Baseline",
+    "case_id":  "SB-010",
+    "expected_reason":  "canonical_safety_baseline",
+    "glyph":  {
+                  "canonical_hash":  "sb010-canonical-hash",
+                  "glyph_id":  "CGO-SB-010"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

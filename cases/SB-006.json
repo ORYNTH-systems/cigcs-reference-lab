@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Safety Evidence Corrupted",
+    "case_id":  "SB-006",
+    "expected_reason":  "safety_evidence_corrupted",
+    "glyph":  {
+                  "canonical_hash":  "sb006-canonical-hash",
+                  "glyph_id":  "CGO-SB-006"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

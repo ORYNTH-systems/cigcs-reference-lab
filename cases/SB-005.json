@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Safety Threshold Exceeded",
+    "case_id":  "SB-005",
+    "expected_reason":  "safety_threshold_exceeded",
+    "glyph":  {
+                  "canonical_hash":  "sb005-canonical-hash",
+                  "glyph_id":  "CGO-SB-005"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

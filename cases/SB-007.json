@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Conflicting Safety Signals",
+    "case_id":  "SB-007",
+    "expected_reason":  "conflicting_safety_signals",
+    "glyph":  {
+                  "canonical_hash":  "sb007-canonical-hash",
+                  "glyph_id":  "CGO-SB-007"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

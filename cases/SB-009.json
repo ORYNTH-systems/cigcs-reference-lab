@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Safety Evaluation Failure",
+    "case_id":  "SB-009",
+    "expected_reason":  "safety_evaluation_failure",
+    "glyph":  {
+                  "canonical_hash":  "sb009-canonical-hash",
+                  "glyph_id":  "CGO-SB-009"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

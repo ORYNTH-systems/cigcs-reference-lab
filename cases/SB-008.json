@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Safety Predicate Timeout",
+    "case_id":  "SB-008",
+    "expected_reason":  "safety_predicate_timeout",
+    "glyph":  {
+                  "canonical_hash":  "sb008-canonical-hash",
+                  "glyph_id":  "CGO-SB-008"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
