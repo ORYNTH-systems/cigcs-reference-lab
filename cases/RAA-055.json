@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Serialization Round Trip",
+    "case_id":  "RAA-055",
+    "expected_reason":  "serialization_round_trip_success",
+    "glyph":  {
+                  "canonical_hash":  "raa055-canonical-hash",
+                  "glyph_id":  "CGO-RAA-055"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

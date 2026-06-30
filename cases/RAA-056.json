@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Encoding Validation",
+    "case_id":  "RAA-056",
+    "expected_reason":  "encoding_valid",
+    "glyph":  {
+                  "canonical_hash":  "raa056-canonical-hash",
+                  "glyph_id":  "CGO-RAA-056"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

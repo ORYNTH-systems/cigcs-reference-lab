@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Deserialization Failure",
+    "case_id":  "RAA-054",
+    "expected_reason":  "deserialization_failure",
+    "glyph":  {
+                  "canonical_hash":  "raa054-canonical-hash",
+                  "glyph_id":  "CGO-RAA-054"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

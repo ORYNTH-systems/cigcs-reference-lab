@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Serialization Failure",
+    "case_id":  "RAA-052",
+    "expected_reason":  "serialization_failure",
+    "glyph":  {
+                  "canonical_hash":  "raa052-canonical-hash",
+                  "glyph_id":  "CGO-RAA-052"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Canonical Serialization",
+    "case_id":  "RAA-051",
+    "expected_reason":  "serialization_success",
+    "glyph":  {
+                  "canonical_hash":  "raa051-canonical-hash",
+                  "glyph_id":  "CGO-RAA-051"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

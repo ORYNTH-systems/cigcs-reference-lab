@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Serialization Baseline",
+    "case_id":  "RAA-060",
+    "expected_reason":  "serialization_baseline",
+    "glyph":  {
+                  "canonical_hash":  "raa060-canonical-hash",
+                  "glyph_id":  "CGO-RAA-060"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

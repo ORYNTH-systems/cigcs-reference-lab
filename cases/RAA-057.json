@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Encoding Corruption",
+    "case_id":  "RAA-057",
+    "expected_reason":  "encoding_corruption_detected",
+    "glyph":  {
+                  "canonical_hash":  "raa057-canonical-hash",
+                  "glyph_id":  "CGO-RAA-057"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

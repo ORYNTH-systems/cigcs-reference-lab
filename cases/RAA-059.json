@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Transport Corruption",
+    "case_id":  "RAA-059",
+    "expected_reason":  "transport_corruption_detected",
+    "glyph":  {
+                  "canonical_hash":  "raa059-canonical-hash",
+                  "glyph_id":  "CGO-RAA-059"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Transport Preservation",
+    "case_id":  "RAA-058",
+    "expected_reason":  "transport_preserved",
+    "glyph":  {
+                  "canonical_hash":  "raa058-canonical-hash",
+                  "glyph_id":  "CGO-RAA-058"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
