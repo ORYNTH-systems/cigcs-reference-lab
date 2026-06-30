@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Golden Compound Constitutional Scenario",
+    "case_id":  "CE-099",
+    "expected_reason":  "golden_compound_constitutional_scenario",
+    "glyph":  {
+                  "canonical_hash":  "ce099-canonical-hash",
+                  "glyph_id":  "CGO-CE-099"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

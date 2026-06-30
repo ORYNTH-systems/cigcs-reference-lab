@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Golden Cross-Constitutional Enforcement",
+    "case_id":  "CE-092",
+    "expected_reason":  "golden_cross_constitutional_enforcement",
+    "glyph":  {
+                  "canonical_hash":  "ce092-canonical-hash",
+                  "glyph_id":  "CGO-CE-092"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

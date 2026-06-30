@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Golden Constitutional Recovery",
+    "case_id":  "CE-097",
+    "expected_reason":  "golden_constitutional_recovery",
+    "glyph":  {
+                  "canonical_hash":  "ce097-canonical-hash",
+                  "glyph_id":  "CGO-CE-097"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

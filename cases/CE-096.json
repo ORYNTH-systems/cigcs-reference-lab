@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Golden Constraint Mutation Resistance",
+    "case_id":  "CE-096",
+    "expected_reason":  "golden_constraint_mutation_resistance",
+    "glyph":  {
+                  "canonical_hash":  "ce096-canonical-hash",
+                  "glyph_id":  "CGO-CE-096"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

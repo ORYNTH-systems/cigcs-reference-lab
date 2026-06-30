@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Golden Multi-Stage Evaluation",
+    "case_id":  "CE-093",
+    "expected_reason":  "golden_multi_stage_evaluation",
+    "glyph":  {
+                  "canonical_hash":  "ce093-canonical-hash",
+                  "glyph_id":  "CGO-CE-093"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

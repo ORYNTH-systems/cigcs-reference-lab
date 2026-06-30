@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Golden Distributed Governance",
+    "case_id":  "CE-095",
+    "expected_reason":  "golden_distributed_governance",
+    "glyph":  {
+                  "canonical_hash":  "ce095-canonical-hash",
+                  "glyph_id":  "CGO-CE-095"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Golden Adversarial Enforcement",
+    "case_id":  "CE-094",
+    "expected_reason":  "golden_adversarial_enforcement",
+    "glyph":  {
+                  "canonical_hash":  "ce094-canonical-hash",
+                  "glyph_id":  "CGO-CE-094"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

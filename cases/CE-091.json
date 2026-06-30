@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Golden Constitutional Invariants",
+    "case_id":  "CE-091",
+    "expected_reason":  "golden_constitutional_invariants",
+    "glyph":  {
+                  "canonical_hash":  "ce091-canonical-hash",
+                  "glyph_id":  "CGO-CE-091"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

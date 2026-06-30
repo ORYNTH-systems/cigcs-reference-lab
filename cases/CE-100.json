@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Canonical Constitutional Enforcement Reference",
+    "case_id":  "CE-100",
+    "expected_reason":  "canonical_constitutional_enforcement_reference",
+    "glyph":  {
+                  "canonical_hash":  "ce100-canonical-hash",
+                  "glyph_id":  "CGO-CE-100"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

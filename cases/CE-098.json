@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Golden Stress \u0026 Scalability",
+    "case_id":  "CE-098",
+    "expected_reason":  "golden_stress_scalability",
+    "glyph":  {
+                  "canonical_hash":  "ce098-canonical-hash",
+                  "glyph_id":  "CGO-CE-098"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
