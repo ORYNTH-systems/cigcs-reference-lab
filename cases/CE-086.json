@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Runtime Safety Artifact Conflict",
+    "case_id":  "CE-086",
+    "expected_reason":  "runtime_safety_artifact_conflict",
+    "glyph":  {
+                  "canonical_hash":  "ce086-canonical-hash",
+                  "glyph_id":  "CGO-CE-086"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  false
+                       }
+}

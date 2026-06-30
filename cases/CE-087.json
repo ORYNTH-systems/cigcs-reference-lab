@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Recovery After Compound Conflict",
+    "case_id":  "CE-087",
+    "expected_reason":  "recovery_after_compound_conflict",
+    "glyph":  {
+                  "canonical_hash":  "ce087-canonical-hash",
+                  "glyph_id":  "CGO-CE-087"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

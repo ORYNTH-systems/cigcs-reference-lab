@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Policy Mutation Safety Conflict",
+    "case_id":  "CE-084",
+    "expected_reason":  "policy_mutation_safety_conflict",
+    "glyph":  {
+                  "canonical_hash":  "ce084-canonical-hash",
+                  "glyph_id":  "CGO-CE-084"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  false
+                       }
+}

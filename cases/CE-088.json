@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Compound Conflict Preservation",
+    "case_id":  "CE-088",
+    "expected_reason":  "compound_conflict_preservation",
+    "glyph":  {
+                  "canonical_hash":  "ce088-canonical-hash",
+                  "glyph_id":  "CGO-CE-088"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

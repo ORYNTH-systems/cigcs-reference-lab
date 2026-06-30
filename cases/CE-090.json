@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Compound Scenario Baseline",
+    "case_id":  "CE-090",
+    "expected_reason":  "compound_scenario_baseline",
+    "glyph":  {
+                  "canonical_hash":  "ce090-canonical-hash",
+                  "glyph_id":  "CGO-CE-090"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Evidence Drift Artifact Conflict",
+    "case_id":  "CE-085",
+    "expected_reason":  "evidence_drift_artifact_conflict",
+    "glyph":  {
+                  "canonical_hash":  "ce085-canonical-hash",
+                  "glyph_id":  "CGO-CE-085"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  false
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Distributed Artifact Safety Conflict",
+    "case_id":  "CE-083",
+    "expected_reason":  "distributed_artifact_safety_conflict",
+    "glyph":  {
+                  "canonical_hash":  "ce083-canonical-hash",
+                  "glyph_id":  "CGO-CE-083"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  false
+                       }
+}

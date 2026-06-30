@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Replay Safety Constraint Compound Conflict",
+    "case_id":  "CE-082",
+    "expected_reason":  "replay_safety_constraint_compound_conflict",
+    "glyph":  {
+                  "canonical_hash":  "ce082-canonical-hash",
+                  "glyph_id":  "CGO-CE-082"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  false
+                       }
+}

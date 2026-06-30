@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Full Compound Constitutional Scenario",
+    "case_id":  "CE-089",
+    "expected_reason":  "full_compound_constitutional_scenario",
+    "glyph":  {
+                  "canonical_hash":  "ce089-canonical-hash",
+                  "glyph_id":  "CGO-CE-089"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
