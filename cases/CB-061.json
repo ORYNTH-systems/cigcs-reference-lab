@@ -1,0 +1,19 @@
+{
+  "case_id": "CB-061",
+  "title": "Authority Revoked Before Render",
+  "glyph": {
+    "glyph_id": "CGO-CB-061",
+    "canonical_hash": "cb061-canonical-hash"
+  },
+  "constraint_set": {
+    "admissible": false
+  },
+  "safety_predicate": {
+    "safe": true
+  },
+  "artifact": {
+    "present": true
+  },
+  "expected_result": "blocked",
+  "expected_reason": "authority_revoked_before_render"
+}

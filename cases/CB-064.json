@@ -1,0 +1,19 @@
+{
+  "case_id": "CB-064",
+  "title": "Session Expired Before Render",
+  "glyph": {
+    "glyph_id": "CGO-CB-064",
+    "canonical_hash": "cb064-canonical-hash"
+  },
+  "constraint_set": {
+    "admissible": false
+  },
+  "safety_predicate": {
+    "safe": true
+  },
+  "artifact": {
+    "present": true
+  },
+  "expected_result": "blocked",
+  "expected_reason": "session_expired"
+}

@@ -1,0 +1,19 @@
+{
+  "case_id": "CB-067",
+  "title": "Permission Downgrade Before Render",
+  "glyph": {
+    "glyph_id": "CGO-CB-067",
+    "canonical_hash": "cb067-canonical-hash"
+  },
+  "constraint_set": {
+    "admissible": false
+  },
+  "safety_predicate": {
+    "safe": true
+  },
+  "artifact": {
+    "present": true
+  },
+  "expected_result": "blocked",
+  "expected_reason": "permission_downgrade"
+}

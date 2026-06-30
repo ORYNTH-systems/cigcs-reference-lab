@@ -1,0 +1,19 @@
+{
+  "case_id": "CB-063",
+  "title": "Policy Updated Before Execution",
+  "glyph": {
+    "glyph_id": "CGO-CB-063",
+    "canonical_hash": "cb063-canonical-hash"
+  },
+  "constraint_set": {
+    "admissible": false
+  },
+  "safety_predicate": {
+    "safe": true
+  },
+  "artifact": {
+    "present": true
+  },
+  "expected_result": "blocked",
+  "expected_reason": "policy_updated_before_execution"
+}

@@ -1,0 +1,19 @@
+{
+  "case_id": "CB-065",
+  "title": "Context Mutation Before Execution",
+  "glyph": {
+    "glyph_id": "CGO-CB-065",
+    "canonical_hash": "cb065-canonical-hash"
+  },
+  "constraint_set": {
+    "admissible": false
+  },
+  "safety_predicate": {
+    "safe": true
+  },
+  "artifact": {
+    "present": true
+  },
+  "expected_result": "blocked",
+  "expected_reason": "context_mutation_before_execution"
+}

@@ -1,0 +1,19 @@
+{
+  "case_id": "CB-069",
+  "title": "Environmental Invalidation Before Render",
+  "glyph": {
+    "glyph_id": "CGO-CB-069",
+    "canonical_hash": "cb069-canonical-hash"
+  },
+  "constraint_set": {
+    "admissible": false
+  },
+  "safety_predicate": {
+    "safe": true
+  },
+  "artifact": {
+    "present": true
+  },
+  "expected_result": "blocked",
+  "expected_reason": "environmental_invalidation"
+}

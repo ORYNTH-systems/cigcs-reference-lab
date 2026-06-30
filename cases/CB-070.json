@@ -1,0 +1,19 @@
+{
+  "case_id": "CB-070",
+  "title": "Resource Exhaustion Before Render",
+  "glyph": {
+    "glyph_id": "CGO-CB-070",
+    "canonical_hash": "cb070-canonical-hash"
+  },
+  "constraint_set": {
+    "admissible": false
+  },
+  "safety_predicate": {
+    "safe": true
+  },
+  "artifact": {
+    "present": true
+  },
+  "expected_result": "blocked",
+  "expected_reason": "resource_exhaustion"
+}

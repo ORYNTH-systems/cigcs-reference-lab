@@ -1,0 +1,19 @@
+{
+  "case_id": "CB-068",
+  "title": "Temporal Expiration Before Execution",
+  "glyph": {
+    "glyph_id": "CGO-CB-068",
+    "canonical_hash": "cb068-canonical-hash"
+  },
+  "constraint_set": {
+    "admissible": false
+  },
+  "safety_predicate": {
+    "safe": true
+  },
+  "artifact": {
+    "present": true
+  },
+  "expected_result": "blocked",
+  "expected_reason": "temporal_expiration"
+}
