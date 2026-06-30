@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Cross-Binding Consistency",
+    "case_id":  "RAA-039",
+    "expected_reason":  "cross_binding_consistency",
+    "glyph":  {
+                  "canonical_hash":  "raa039-canonical-hash",
+                  "glyph_id":  "CGO-RAA-039"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

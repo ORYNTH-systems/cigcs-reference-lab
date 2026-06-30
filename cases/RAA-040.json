@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Canonical Binding Baseline",
+    "case_id":  "RAA-040",
+    "expected_reason":  "canonical_binding_baseline",
+    "glyph":  {
+                  "canonical_hash":  "raa040-canonical-hash",
+                  "glyph_id":  "CGO-RAA-040"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

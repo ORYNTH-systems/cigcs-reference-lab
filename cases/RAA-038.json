@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Invalid Session Binding",
+    "case_id":  "RAA-038",
+    "expected_reason":  "invalid_session_binding",
+    "glyph":  {
+                  "canonical_hash":  "raa038-canonical-hash",
+                  "glyph_id":  "CGO-RAA-038"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

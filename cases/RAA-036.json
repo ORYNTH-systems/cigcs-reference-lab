@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Invalid State Binding",
+    "case_id":  "RAA-036",
+    "expected_reason":  "invalid_state_binding",
+    "glyph":  {
+                  "canonical_hash":  "raa036-canonical-hash",
+                  "glyph_id":  "CGO-RAA-036"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

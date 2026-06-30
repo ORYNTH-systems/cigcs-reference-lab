@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Session Binding",
+    "case_id":  "RAA-037",
+    "expected_reason":  "session_binding_verified",
+    "glyph":  {
+                  "canonical_hash":  "raa037-canonical-hash",
+                  "glyph_id":  "CGO-RAA-037"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

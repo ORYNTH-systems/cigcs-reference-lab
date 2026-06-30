@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Invalid Constraint Binding",
+    "case_id":  "RAA-034",
+    "expected_reason":  "invalid_constraint_binding",
+    "glyph":  {
+                  "canonical_hash":  "raa034-canonical-hash",
+                  "glyph_id":  "CGO-RAA-034"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
