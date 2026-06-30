@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Unsafe Planning Path",
+    "case_id":  "SB-034",
+    "expected_reason":  "unsafe_planning_path",
+    "glyph":  {
+                  "canonical_hash":  "sb034-canonical-hash",
+                  "glyph_id":  "CGO-SB-034"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

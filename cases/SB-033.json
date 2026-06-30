@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Unsafe Goal Selection",
+    "case_id":  "SB-033",
+    "expected_reason":  "unsafe_goal_selection",
+    "glyph":  {
+                  "canonical_hash":  "sb033-canonical-hash",
+                  "glyph_id":  "CGO-SB-033"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

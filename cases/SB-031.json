@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Agent Conflict",
+    "case_id":  "SB-031",
+    "expected_reason":  "agent_conflict_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb031-canonical-hash",
+                  "glyph_id":  "CGO-SB-031"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

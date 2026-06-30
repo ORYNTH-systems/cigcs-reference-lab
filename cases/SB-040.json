@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Autonomous Safety Recovery",
+    "case_id":  "SB-040",
+    "expected_reason":  "autonomous_safety_recovered",
+    "glyph":  {
+                  "canonical_hash":  "sb040-canonical-hash",
+                  "glyph_id":  "CGO-SB-040"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

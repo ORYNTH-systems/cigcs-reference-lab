@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Multi-Agent Coordination Failure",
+    "case_id":  "SB-035",
+    "expected_reason":  "multi_agent_coordination_failure",
+    "glyph":  {
+                  "canonical_hash":  "sb035-canonical-hash",
+                  "glyph_id":  "CGO-SB-035"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

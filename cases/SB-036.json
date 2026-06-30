@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Swarm Instability",
+    "case_id":  "SB-036",
+    "expected_reason":  "swarm_instability_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb036-canonical-hash",
+                  "glyph_id":  "CGO-SB-036"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

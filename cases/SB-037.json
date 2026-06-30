@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Unsafe Delegation",
+    "case_id":  "SB-037",
+    "expected_reason":  "unsafe_delegation",
+    "glyph":  {
+                  "canonical_hash":  "sb037-canonical-hash",
+                  "glyph_id":  "CGO-SB-037"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

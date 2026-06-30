@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Autonomy Suspension",
+    "case_id":  "SB-039",
+    "expected_reason":  "autonomy_suspended",
+    "glyph":  {
+                  "canonical_hash":  "sb039-canonical-hash",
+                  "glyph_id":  "CGO-SB-039"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

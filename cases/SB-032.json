@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Unsafe Autonomous Decision",
+    "case_id":  "SB-032",
+    "expected_reason":  "unsafe_autonomous_decision",
+    "glyph":  {
+                  "canonical_hash":  "sb032-canonical-hash",
+                  "glyph_id":  "CGO-SB-032"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Autonomous Escalation Prevention",
+    "case_id":  "SB-038",
+    "expected_reason":  "autonomous_escalation_prevented",
+    "glyph":  {
+                  "canonical_hash":  "sb038-canonical-hash",
+                  "glyph_id":  "CGO-SB-038"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
