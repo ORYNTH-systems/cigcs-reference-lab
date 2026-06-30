@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Complete Constitutional Lifecycle",
+    "case_id":  "CE-029",
+    "expected_reason":  "complete_constitutional_lifecycle",
+    "glyph":  {
+                  "canonical_hash":  "ce029-canonical-hash",
+                  "glyph_id":  "CGO-CE-029"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

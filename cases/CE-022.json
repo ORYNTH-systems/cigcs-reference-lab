@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Authorization Stage Enforcement",
+    "case_id":  "CE-022",
+    "expected_reason":  "authorization_stage_enforced",
+    "glyph":  {
+                  "canonical_hash":  "ce022-canonical-hash",
+                  "glyph_id":  "CGO-CE-022"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

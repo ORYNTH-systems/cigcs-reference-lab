@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Execution Stage Enforcement",
+    "case_id":  "CE-023",
+    "expected_reason":  "execution_stage_enforced",
+    "glyph":  {
+                  "canonical_hash":  "ce023-canonical-hash",
+                  "glyph_id":  "CGO-CE-023"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

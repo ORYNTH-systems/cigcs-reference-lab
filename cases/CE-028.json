@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Execution Resumption",
+    "case_id":  "CE-028",
+    "expected_reason":  "execution_resumed",
+    "glyph":  {
+                  "canonical_hash":  "ce028-canonical-hash",
+                  "glyph_id":  "CGO-CE-028"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

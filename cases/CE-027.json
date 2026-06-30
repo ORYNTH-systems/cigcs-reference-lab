@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Execution Suspension",
+    "case_id":  "CE-027",
+    "expected_reason":  "execution_suspended",
+    "glyph":  {
+                  "canonical_hash":  "ce027-canonical-hash",
+                  "glyph_id":  "CGO-CE-027"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

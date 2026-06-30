@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Pre-Execution Constitutional Validation",
+    "case_id":  "CE-021",
+    "expected_reason":  "pre_execution_validation",
+    "glyph":  {
+                  "canonical_hash":  "ce021-canonical-hash",
+                  "glyph_id":  "CGO-CE-021"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

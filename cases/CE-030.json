@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Multi-Stage Evaluation Baseline",
+    "case_id":  "CE-030",
+    "expected_reason":  "multi_stage_baseline",
+    "glyph":  {
+                  "canonical_hash":  "ce030-canonical-hash",
+                  "glyph_id":  "CGO-CE-030"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

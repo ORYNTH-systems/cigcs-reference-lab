@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Mid-Execution State Drift",
+    "case_id":  "CE-026",
+    "expected_reason":  "mid_execution_state_drift",
+    "glyph":  {
+                  "canonical_hash":  "ce026-canonical-hash",
+                  "glyph_id":  "CGO-CE-026"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  false
+                       }
+}
