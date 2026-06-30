@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Burst Workload Handling",
+    "case_id":  "CE-075",
+    "expected_reason":  "burst_workload_handled",
+    "glyph":  {
+                  "canonical_hash":  "ce075-canonical-hash",
+                  "glyph_id":  "CGO-CE-075"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

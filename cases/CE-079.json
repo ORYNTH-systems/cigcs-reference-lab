@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Scalable Constitutional Enforcement",
+    "case_id":  "CE-079",
+    "expected_reason":  "scalable_constitutional_enforcement",
+    "glyph":  {
+                  "canonical_hash":  "ce079-canonical-hash",
+                  "glyph_id":  "CGO-CE-079"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

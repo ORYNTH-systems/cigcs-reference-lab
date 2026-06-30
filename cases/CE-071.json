@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "High-Volume Evaluation",
+    "case_id":  "CE-071",
+    "expected_reason":  "high_volume_evaluation",
+    "glyph":  {
+                  "canonical_hash":  "ce071-canonical-hash",
+                  "glyph_id":  "CGO-CE-071"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

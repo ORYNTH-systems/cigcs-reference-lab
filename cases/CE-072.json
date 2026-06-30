@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Concurrent Evaluation",
+    "case_id":  "CE-072",
+    "expected_reason":  "concurrent_evaluation",
+    "glyph":  {
+                  "canonical_hash":  "ce072-canonical-hash",
+                  "glyph_id":  "CGO-CE-072"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Peak Throughput Preservation",
+    "case_id":  "CE-078",
+    "expected_reason":  "peak_throughput_preserved",
+    "glyph":  {
+                  "canonical_hash":  "ce078-canonical-hash",
+                  "glyph_id":  "CGO-CE-078"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

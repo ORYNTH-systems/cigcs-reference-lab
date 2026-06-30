@@ -1,10 +1,10 @@
 {
   "summary": {
-    "total_cases": 360,
-    "PASS": 156,
+    "total_cases": 370,
+    "PASS": 166,
     "BLOCK": 204,
     "QUARANTINE": 0,
-    "expected_matches": 360,
+    "expected_matches": 370,
     "expected_mismatches": 0
   },
   "results": [
@@ -3847,6 +3847,246 @@
         "pass": true
       },
       "hash": "1b37e96d06b03f52f6d78e0bb254e0b2a25cd42c39cb6fb46c3aad558580be26"
+    },
+    {
+      "case_id": "CE-071",
+      "path": "cases/CE-071.json",
+      "state": "PASS",
+      "expected_state": "PASS",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CE-071",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": true,
+          "reason": "all_constraints_satisfied"
+        },
+        "blocked": false,
+        "admitted": true,
+        "reason": "all_constraints_satisfied",
+        "expected": "admitted",
+        "expected_reason": "high_volume_evaluation",
+        "pass": true
+      },
+      "hash": "73fd4205472a08cab80bbbb43901cfc02bb25bac8168d0e6406965c2739cd6d3"
+    },
+    {
+      "case_id": "CE-072",
+      "path": "cases/CE-072.json",
+      "state": "PASS",
+      "expected_state": "PASS",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CE-072",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": true,
+          "reason": "all_constraints_satisfied"
+        },
+        "blocked": false,
+        "admitted": true,
+        "reason": "all_constraints_satisfied",
+        "expected": "admitted",
+        "expected_reason": "concurrent_evaluation",
+        "pass": true
+      },
+      "hash": "a8791927c55020ef44610cadd18a9b4e6ea7d31368ca540c6384e9b4c7088843"
+    },
+    {
+      "case_id": "CE-073",
+      "path": "cases/CE-073.json",
+      "state": "PASS",
+      "expected_state": "PASS",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CE-073",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": true,
+          "reason": "all_constraints_satisfied"
+        },
+        "blocked": false,
+        "admitted": true,
+        "reason": "all_constraints_satisfied",
+        "expected": "admitted",
+        "expected_reason": "resource_constraints_handled",
+        "pass": true
+      },
+      "hash": "390c36e2054e8b3c75cc22a6b694514244971310383cecd1f9ec1e7ef1c3a547"
+    },
+    {
+      "case_id": "CE-074",
+      "path": "cases/CE-074.json",
+      "state": "PASS",
+      "expected_state": "PASS",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CE-074",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": true,
+          "reason": "all_constraints_satisfied"
+        },
+        "blocked": false,
+        "admitted": true,
+        "reason": "all_constraints_satisfied",
+        "expected": "admitted",
+        "expected_reason": "latency_tolerated",
+        "pass": true
+      },
+      "hash": "5a9a9e306f5d1af468b7dd2b2ad189548b955a6280878ea0b06bf0a5ee1073ab"
+    },
+    {
+      "case_id": "CE-075",
+      "path": "cases/CE-075.json",
+      "state": "PASS",
+      "expected_state": "PASS",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CE-075",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": true,
+          "reason": "all_constraints_satisfied"
+        },
+        "blocked": false,
+        "admitted": true,
+        "reason": "all_constraints_satisfied",
+        "expected": "admitted",
+        "expected_reason": "burst_workload_handled",
+        "pass": true
+      },
+      "hash": "c7a08ca230a14a3771821501ed5a9267392aad2e4237d7c80303d5c06136dbfb"
+    },
+    {
+      "case_id": "CE-076",
+      "path": "cases/CE-076.json",
+      "state": "PASS",
+      "expected_state": "PASS",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CE-076",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": true,
+          "reason": "all_constraints_satisfied"
+        },
+        "blocked": false,
+        "admitted": true,
+        "reason": "all_constraints_satisfied",
+        "expected": "admitted",
+        "expected_reason": "long_running_session_preserved",
+        "pass": true
+      },
+      "hash": "a9b932b3c9060cf515fecc975e109038b389b5098c5469fc84822b63988b61de"
+    },
+    {
+      "case_id": "CE-077",
+      "path": "cases/CE-077.json",
+      "state": "PASS",
+      "expected_state": "PASS",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CE-077",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": true,
+          "reason": "all_constraints_satisfied"
+        },
+        "blocked": false,
+        "admitted": true,
+        "reason": "all_constraints_satisfied",
+        "expected": "admitted",
+        "expected_reason": "distributed_load_preserved",
+        "pass": true
+      },
+      "hash": "fbf0b3ad4634b1b0e52b245fc7d928b3bfbbeb83cc7db6aba5b9e59775fdb455"
+    },
+    {
+      "case_id": "CE-078",
+      "path": "cases/CE-078.json",
+      "state": "PASS",
+      "expected_state": "PASS",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CE-078",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": true,
+          "reason": "all_constraints_satisfied"
+        },
+        "blocked": false,
+        "admitted": true,
+        "reason": "all_constraints_satisfied",
+        "expected": "admitted",
+        "expected_reason": "peak_throughput_preserved",
+        "pass": true
+      },
+      "hash": "1cbaba6865230dc286547f25b9f098f74c58ded0237e15ac4c299629fdb83471"
+    },
+    {
+      "case_id": "CE-079",
+      "path": "cases/CE-079.json",
+      "state": "PASS",
+      "expected_state": "PASS",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CE-079",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": true,
+          "reason": "all_constraints_satisfied"
+        },
+        "blocked": false,
+        "admitted": true,
+        "reason": "all_constraints_satisfied",
+        "expected": "admitted",
+        "expected_reason": "scalable_constitutional_enforcement",
+        "pass": true
+      },
+      "hash": "1bba74fd1c08776523311864b40ff0eee0e770378dd4045ea558d54a8c9bc547"
+    },
+    {
+      "case_id": "CE-080",
+      "path": "cases/CE-080.json",
+      "state": "PASS",
+      "expected_state": "PASS",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CE-080",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": true,
+          "reason": "all_constraints_satisfied"
+        },
+        "blocked": false,
+        "admitted": true,
+        "reason": "all_constraints_satisfied",
+        "expected": "admitted",
+        "expected_reason": "stress_baseline",
+        "pass": true
+      },
+      "hash": "9626ac5834e2437534acf3ffd7d167cb409841d9c2d57fa6e48b65a488a6e59b"
     },
     {
       "case_id": "RAA-001",
@@ -8649,6 +8889,6 @@
       "hash": "c484aa53dadf6a902c825fc2eccff90f28907a09658ae6c7557f638ec199d855"
     }
   ],
-  "integrity_chain_length": 360,
+  "integrity_chain_length": 370,
   "status": "DELTA_ENGINE_DELEGATES_TO_CONSTITUTIONAL_EVALUATOR"
 }

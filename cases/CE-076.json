@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Long-Running Session Stability",
+    "case_id":  "CE-076",
+    "expected_reason":  "long_running_session_preserved",
+    "glyph":  {
+                  "canonical_hash":  "ce076-canonical-hash",
+                  "glyph_id":  "CGO-CE-076"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

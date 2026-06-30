@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Stress Baseline",
+    "case_id":  "CE-080",
+    "expected_reason":  "stress_baseline",
+    "glyph":  {
+                  "canonical_hash":  "ce080-canonical-hash",
+                  "glyph_id":  "CGO-CE-080"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Resource-Constrained Evaluation",
+    "case_id":  "CE-073",
+    "expected_reason":  "resource_constraints_handled",
+    "glyph":  {
+                  "canonical_hash":  "ce073-canonical-hash",
+                  "glyph_id":  "CGO-CE-073"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

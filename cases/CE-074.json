@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Latency Tolerance",
+    "case_id":  "CE-074",
+    "expected_reason":  "latency_tolerated",
+    "glyph":  {
+                  "canonical_hash":  "ce074-canonical-hash",
+                  "glyph_id":  "CGO-CE-074"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
