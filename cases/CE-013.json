@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Artifact and Admissibility Agreement",
+    "case_id":  "CE-013",
+    "expected_reason":  "artifact_admissibility_agreement",
+    "glyph":  {
+                  "canonical_hash":  "ce013-canonical-hash",
+                  "glyph_id":  "CGO-CE-013"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

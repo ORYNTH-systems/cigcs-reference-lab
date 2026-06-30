@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Compound Constitutional Conflict",
+    "case_id":  "CE-018",
+    "expected_reason":  "compound_constitutional_conflict",
+    "glyph":  {
+                  "canonical_hash":  "ce018-canonical-hash",
+                  "glyph_id":  "CGO-CE-018"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  false
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Artifact Admissibility Conflict",
+    "case_id":  "CE-014",
+    "expected_reason":  "artifact_admissibility_conflict",
+    "glyph":  {
+                  "canonical_hash":  "ce014-canonical-hash",
+                  "glyph_id":  "CGO-CE-014"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

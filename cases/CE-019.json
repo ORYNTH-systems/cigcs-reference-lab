@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Cross-Constitutional Preservation",
+    "case_id":  "CE-019",
+    "expected_reason":  "cross_constitutional_preservation",
+    "glyph":  {
+                  "canonical_hash":  "ce019-canonical-hash",
+                  "glyph_id":  "CGO-CE-019"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Full Constitutional Agreement",
+    "case_id":  "CE-017",
+    "expected_reason":  "full_constitutional_agreement",
+    "glyph":  {
+                  "canonical_hash":  "ce017-canonical-hash",
+                  "glyph_id":  "CGO-CE-017"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
