@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "System Recovery",
+    "case_id":  "SB-088",
+    "expected_reason":  "system_recovery_success",
+    "glyph":  {
+                  "canonical_hash":  "sb088-canonical-hash",
+                  "glyph_id":  "CGO-SB-088"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

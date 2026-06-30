@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Multi-Step Safety Recovery",
+    "case_id":  "SB-089",
+    "expected_reason":  "multi_step_safety_recovery",
+    "glyph":  {
+                  "canonical_hash":  "sb089-canonical-hash",
+                  "glyph_id":  "CGO-SB-089"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

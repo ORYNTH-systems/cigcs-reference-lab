@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Operator Recovery",
+    "case_id":  "SB-087",
+    "expected_reason":  "operator_recovery_success",
+    "glyph":  {
+                  "canonical_hash":  "sb087-canonical-hash",
+                  "glyph_id":  "CGO-SB-087"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

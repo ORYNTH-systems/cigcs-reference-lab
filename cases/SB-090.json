@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Full Safety Restoration",
+    "case_id":  "SB-090",
+    "expected_reason":  "full_safety_restoration",
+    "glyph":  {
+                  "canonical_hash":  "sb090-canonical-hash",
+                  "glyph_id":  "CGO-SB-090"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

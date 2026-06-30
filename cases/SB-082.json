@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Sensor Recovery",
+    "case_id":  "SB-082",
+    "expected_reason":  "sensor_recovery_success",
+    "glyph":  {
+                  "canonical_hash":  "sb082-canonical-hash",
+                  "glyph_id":  "CGO-SB-082"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

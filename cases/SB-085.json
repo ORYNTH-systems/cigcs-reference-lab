@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Runtime Recovery",
+    "case_id":  "SB-085",
+    "expected_reason":  "runtime_recovery_success",
+    "glyph":  {
+                  "canonical_hash":  "sb085-canonical-hash",
+                  "glyph_id":  "CGO-SB-085"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

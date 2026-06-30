@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Evidence Recovery",
+    "case_id":  "SB-084",
+    "expected_reason":  "evidence_recovery_success",
+    "glyph":  {
+                  "canonical_hash":  "sb084-canonical-hash",
+                  "glyph_id":  "CGO-SB-084"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

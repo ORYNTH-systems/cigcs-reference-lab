@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Safety Restoration",
+    "case_id":  "SB-081",
+    "expected_reason":  "safety_restoration_success",
+    "glyph":  {
+                  "canonical_hash":  "sb081-canonical-hash",
+                  "glyph_id":  "CGO-SB-081"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Dependency Recovery",
+    "case_id":  "SB-086",
+    "expected_reason":  "dependency_recovery_success",
+    "glyph":  {
+                  "canonical_hash":  "sb086-canonical-hash",
+                  "glyph_id":  "CGO-SB-086"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
