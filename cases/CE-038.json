@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Adversarial Multi-Layer Attack",
+    "case_id":  "CE-038",
+    "expected_reason":  "adversarial_multi_layer_attack_blocked",
+    "glyph":  {
+                  "canonical_hash":  "ce038-canonical-hash",
+                  "glyph_id":  "CGO-CE-038"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  false
+                       }
+}

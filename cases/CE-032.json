@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Adversarial Artifact Substitution",
+    "case_id":  "CE-032",
+    "expected_reason":  "adversarial_artifact_substitution_blocked",
+    "glyph":  {
+                  "canonical_hash":  "ce032-canonical-hash",
+                  "glyph_id":  "CGO-CE-032"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  false
+                       }
+}

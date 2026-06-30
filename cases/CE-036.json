@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Adversarial Hash Mutation",
+    "case_id":  "CE-036",
+    "expected_reason":  "adversarial_hash_mutation_blocked",
+    "glyph":  {
+                  "canonical_hash":  "ce036-canonical-hash",
+                  "glyph_id":  "CGO-CE-036"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  false
+                       }
+}

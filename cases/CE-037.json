@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Adversarial Boundary Bypass",
+    "case_id":  "CE-037",
+    "expected_reason":  "adversarial_boundary_bypass_blocked",
+    "glyph":  {
+                  "canonical_hash":  "ce037-canonical-hash",
+                  "glyph_id":  "CGO-CE-037"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  false
+                       }
+}

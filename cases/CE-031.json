@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Adversarial Replay Enforcement",
+    "case_id":  "CE-031",
+    "expected_reason":  "adversarial_replay_enforced",
+    "glyph":  {
+                  "canonical_hash":  "ce031-canonical-hash",
+                  "glyph_id":  "CGO-CE-031"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  false
+                       }
+}

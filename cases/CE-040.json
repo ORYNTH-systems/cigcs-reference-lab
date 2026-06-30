@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Adversarial Enforcement Baseline",
+    "case_id":  "CE-040",
+    "expected_reason":  "adversarial_enforcement_baseline",
+    "glyph":  {
+                  "canonical_hash":  "ce040-canonical-hash",
+                  "glyph_id":  "CGO-CE-040"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Adversarial Safety Suppression",
+    "case_id":  "CE-033",
+    "expected_reason":  "adversarial_safety_suppression_blocked",
+    "glyph":  {
+                  "canonical_hash":  "ce033-canonical-hash",
+                  "glyph_id":  "CGO-CE-033"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  false
+                       }
+}
