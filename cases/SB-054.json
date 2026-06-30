@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Priority Inversion",
+    "case_id":  "SB-054",
+    "expected_reason":  "priority_inversion_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb054-canonical-hash",
+                  "glyph_id":  "CGO-SB-054"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

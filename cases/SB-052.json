@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Shared Resource Conflict",
+    "case_id":  "SB-052",
+    "expected_reason":  "shared_resource_conflict",
+    "glyph":  {
+                  "canonical_hash":  "sb052-canonical-hash",
+                  "glyph_id":  "CGO-SB-052"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

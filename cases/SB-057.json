@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Distributed Override",
+    "case_id":  "SB-057",
+    "expected_reason":  "distributed_override_invoked",
+    "glyph":  {
+                  "canonical_hash":  "sb057-canonical-hash",
+                  "glyph_id":  "CGO-SB-057"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

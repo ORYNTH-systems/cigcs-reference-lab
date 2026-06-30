@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Consensus Failure",
+    "case_id":  "SB-058",
+    "expected_reason":  "consensus_failure_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb058-canonical-hash",
+                  "glyph_id":  "CGO-SB-058"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

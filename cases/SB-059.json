@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Cooperative Recovery",
+    "case_id":  "SB-059",
+    "expected_reason":  "cooperative_recovery_success",
+    "glyph":  {
+                  "canonical_hash":  "sb059-canonical-hash",
+                  "glyph_id":  "CGO-SB-059"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

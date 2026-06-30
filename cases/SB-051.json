@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Conflicting Actors",
+    "case_id":  "SB-051",
+    "expected_reason":  "conflicting_actors_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb051-canonical-hash",
+                  "glyph_id":  "CGO-SB-051"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

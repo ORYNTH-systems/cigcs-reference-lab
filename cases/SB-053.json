@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Simultaneous Execution",
+    "case_id":  "SB-053",
+    "expected_reason":  "simultaneous_execution_risk",
+    "glyph":  {
+                  "canonical_hash":  "sb053-canonical-hash",
+                  "glyph_id":  "CGO-SB-053"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

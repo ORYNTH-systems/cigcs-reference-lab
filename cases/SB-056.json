@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Unsafe Synchronization",
+    "case_id":  "SB-056",
+    "expected_reason":  "unsafe_synchronization_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb056-canonical-hash",
+                  "glyph_id":  "CGO-SB-056"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

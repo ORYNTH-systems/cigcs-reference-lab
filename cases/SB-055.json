@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Deadlock Prevention",
+    "case_id":  "SB-055",
+    "expected_reason":  "deadlock_prevention_triggered",
+    "glyph":  {
+                  "canonical_hash":  "sb055-canonical-hash",
+                  "glyph_id":  "CGO-SB-055"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

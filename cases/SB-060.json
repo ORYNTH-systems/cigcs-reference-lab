@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Multi-Agent Stabilization",
+    "case_id":  "SB-060",
+    "expected_reason":  "multi_agent_stabilization_success",
+    "glyph":  {
+                  "canonical_hash":  "sb060-canonical-hash",
+                  "glyph_id":  "CGO-SB-060"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
