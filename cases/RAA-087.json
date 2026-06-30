@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Artifact Integrity Recovery",
+    "case_id":  "RAA-087",
+    "expected_reason":  "artifact_integrity_recovered",
+    "glyph":  {
+                  "canonical_hash":  "raa087-canonical-hash",
+                  "glyph_id":  "CGO-RAA-087"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

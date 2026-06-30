@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Artifact Revalidation",
+    "case_id":  "RAA-083",
+    "expected_reason":  "artifact_revalidated",
+    "glyph":  {
+                  "canonical_hash":  "raa083-canonical-hash",
+                  "glyph_id":  "CGO-RAA-083"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

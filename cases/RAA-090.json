@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Artifact Recovery Baseline",
+    "case_id":  "RAA-090",
+    "expected_reason":  "artifact_recovery_baseline",
+    "glyph":  {
+                  "canonical_hash":  "raa090-canonical-hash",
+                  "glyph_id":  "CGO-RAA-090"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Artifact Synchronization Recovery",
+    "case_id":  "RAA-086",
+    "expected_reason":  "artifact_synchronization_recovered",
+    "glyph":  {
+                  "canonical_hash":  "raa086-canonical-hash",
+                  "glyph_id":  "CGO-RAA-086"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
