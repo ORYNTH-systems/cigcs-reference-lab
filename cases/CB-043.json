@@ -1,0 +1,19 @@
+{
+  "case_id": "CB-043",
+  "title": "Canonical admissible render boundary case",
+  "glyph": {
+    "glyph_id": "CGO-CB-043",
+    "canonical_hash": "cb043-canonical-hash"
+  },
+  "constraint_set": {
+    "admissible": true
+  },
+  "safety_predicate": {
+    "safe": true
+  },
+  "artifact": {
+    "present": true
+  },
+  "expected_result": "admitted",
+  "expected_reason": "all_constraints_satisfied"
+}
