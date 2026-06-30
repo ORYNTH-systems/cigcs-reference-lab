@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Hash Chain Recovery",
+    "case_id":  "CB-086",
+    "expected_reason":  "hash_chain_recovery_success",
+    "glyph":  {
+                  "canonical_hash":  "cb086-canonical-hash",
+                  "glyph_id":  "CGO-CB-086"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

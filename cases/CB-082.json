@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Constraint Recovery",
+    "case_id":  "CB-082",
+    "expected_reason":  "constraint_recovery_success",
+    "glyph":  {
+                  "canonical_hash":  "cb082-canonical-hash",
+                  "glyph_id":  "CGO-CB-082"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

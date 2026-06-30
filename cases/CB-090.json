@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Full Constitutional Restoration",
+    "case_id":  "CB-090",
+    "expected_reason":  "full_constitutional_restoration",
+    "glyph":  {
+                  "canonical_hash":  "cb090-canonical-hash",
+                  "glyph_id":  "CGO-CB-090"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

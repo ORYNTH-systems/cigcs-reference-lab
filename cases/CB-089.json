@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Multi-Step Constitutional Reconciliation",
+    "case_id":  "CB-089",
+    "expected_reason":  "multi_step_reconciliation_success",
+    "glyph":  {
+                  "canonical_hash":  "cb089-canonical-hash",
+                  "glyph_id":  "CGO-CB-089"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

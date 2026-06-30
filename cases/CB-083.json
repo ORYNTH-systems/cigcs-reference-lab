@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Policy Recovery",
+    "case_id":  "CB-083",
+    "expected_reason":  "policy_recovery_success",
+    "glyph":  {
+                  "canonical_hash":  "cb083-canonical-hash",
+                  "glyph_id":  "CGO-CB-083"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

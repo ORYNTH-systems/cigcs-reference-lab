@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Authority Recovery",
+    "case_id":  "CB-084",
+    "expected_reason":  "authority_recovery_success",
+    "glyph":  {
+                  "canonical_hash":  "cb084-canonical-hash",
+                  "glyph_id":  "CGO-CB-084"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
