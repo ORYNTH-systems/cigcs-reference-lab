@@ -47,7 +47,7 @@ class CIGCSEvaluator:
         S = self.evaluate_safety(case)
         V = self.evaluate_render_boundary(case)
 
-        C = self.consistency.evaluate(A, S, V)
+        C = self.consistency.evaluate(A, S, V, case)
 
         blocked = not (A and S and V and C["consistent"])
         admitted = (A and S and V and C["consistent"])

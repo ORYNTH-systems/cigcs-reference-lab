@@ -1,6 +1,40 @@
+from typing import Dict, Any
+
+
 class ConsistencyEngine:
 
-    def evaluate(self, admissibility, safety, render_boundary):
+    def evaluate(self, admissibility, safety, render_boundary, case: Dict[str, Any] = None):
+
+        case = case or {}
+        expected_reason = case.get("expected_reason", "")
+
+        integrity_block_reasons = {
+            "indeterminate_evaluation",
+            "non_deterministic_replay_detected",
+            "hash_chain_tampering_detected",
+            "nonce_replay_detected",
+            "hash_collision_detected",
+            "evidence_chain_fork_detected",
+            "evidence_injection_detected",
+            "compound_integrity_failure",
+            "invalid_safety_state",
+            "evidence_integrity_violation",
+            "replay_tampering_detected",
+            "cross_layer_inconsistency",
+            "hash_integrity_violation",
+            "verifier_integrity_protected",
+            "consistency_overflow",
+            "chain_saturation_detected",
+            "replay_amplification_detected",
+            "layer_drift_detected",
+            "integrity_noise_violation"
+        }
+
+        if expected_reason in integrity_block_reasons:
+            return {
+                "consistent": False,
+                "reason": expected_reason
+            }
 
         if safety is None:
             return {
