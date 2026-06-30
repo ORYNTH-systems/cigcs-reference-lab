@@ -9,21 +9,6 @@ class CIGCSEngine:
         self.chain = []
         self.evaluator = CIGCSEvaluator()
 
-    def A(self, case):
-        return "case_id" in case
-
-    def S(self, case):
-        return case.get("safety_predicate", {}).get("safe", False) is True
-
-    def V(self, case):
-        return case.get("artifact", {}).get("present", False) is True
-
-    def C(self, case):
-        return not (
-            case.get("safety_predicate", {}).get("safe") is False and
-            case.get("constraint_set", {}).get("admissible") is True
-        )
-
     def evaluate(self, case):
         return self.evaluator.evaluate_case(case)
 
@@ -36,7 +21,12 @@ class CIGCSEngine:
         return 0 if base == pert else 1
 
     def delta(self, case):
-        if not (self.A(case) and self.S(case) and self.V(case) and self.C(case)):
+        evaluated = self.evaluate(case)
+
+        if evaluated.get("blocked") is True:
+            return "BLOCK"
+
+        if evaluated.get("admitted") is not True:
             return "BLOCK"
 
         if self.stability(case) > 0:
@@ -117,7 +107,6 @@ class CIGCSEngine:
             result_state = self.delta(case)
             expected = self.expected_state(case)
             expected_match = expected == result_state
-
             evaluator_result = self.evaluate(case)
 
             evidence = {
@@ -147,7 +136,7 @@ class CIGCSEngine:
             "summary": summary,
             "results": results,
             "integrity_chain_length": len(self.chain),
-            "status": "DELTA_ADVERSARIAL_ENGINE_ACTIVE"
+            "status": "DELTA_ENGINE_DELEGATES_TO_CONSTITUTIONAL_EVALUATOR"
         }
 
         self.write_reports(output)

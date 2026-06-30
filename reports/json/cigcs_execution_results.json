@@ -1,11 +1,11 @@
 {
   "summary": {
     "total_cases": 60,
-    "PASS": 33,
-    "BLOCK": 27,
+    "PASS": 25,
+    "BLOCK": 35,
     "QUARANTINE": 0,
-    "expected_matches": 33,
-    "expected_mismatches": 27
+    "expected_matches": 41,
+    "expected_mismatches": 19
   },
   "results": [
     {
@@ -275,9 +275,9 @@
     {
       "case_id": "CB-012",
       "path": "cases/CB-012.json",
-      "state": "PASS",
+      "state": "BLOCK",
       "expected_state": "BLOCK",
-      "expected_match": false,
+      "expected_match": true,
       "evaluator": {
         "case_id": "CB-012",
         "admissibility": false,
@@ -294,14 +294,14 @@
         "expected_reason": "single_constraint_violation",
         "pass": true
       },
-      "hash": "fac7133dec43e8a76f0e8930d188a584e1ecc7f46243c5622ad47f68bdd3f2a6"
+      "hash": "e5aa065f9a3fda98badb28e612f25131fd3f7d17c3f6922154771300f131a013"
     },
     {
       "case_id": "CB-013",
       "path": "cases/CB-013.json",
-      "state": "PASS",
+      "state": "BLOCK",
       "expected_state": "BLOCK",
-      "expected_match": false,
+      "expected_match": true,
       "evaluator": {
         "case_id": "CB-013",
         "admissibility": false,
@@ -318,14 +318,14 @@
         "expected_reason": "missing_required_field",
         "pass": true
       },
-      "hash": "2ed0c0536a045dcd8a160b420650218bc6cf0ed081e07b9c2af9615906924c45"
+      "hash": "ea1fe3a2fcdc8447653ce03b41826c03b90b91f93de8ebc4639c7e28a4762140"
     },
     {
       "case_id": "CB-014",
       "path": "cases/CB-014.json",
-      "state": "PASS",
+      "state": "BLOCK",
       "expected_state": "BLOCK",
-      "expected_match": false,
+      "expected_match": true,
       "evaluator": {
         "case_id": "CB-014",
         "admissibility": false,
@@ -342,7 +342,7 @@
         "expected_reason": "schema_invalid",
         "pass": true
       },
-      "hash": "efe0966bf90686515a0a1af9a90119ae5c21f0d544190de8b10295647ce1a926"
+      "hash": "cc27dafbd39fad5933d60df247dde163d764a1aeccc7effe53705cfb6d751458"
     },
     {
       "case_id": "CB-015",
@@ -371,9 +371,9 @@
     {
       "case_id": "CB-016",
       "path": "cases/CB-016.json",
-      "state": "PASS",
+      "state": "BLOCK",
       "expected_state": "BLOCK",
-      "expected_match": false,
+      "expected_match": true,
       "evaluator": {
         "case_id": "CB-016",
         "admissibility": false,
@@ -390,14 +390,14 @@
         "expected_reason": "unknown_identifier",
         "pass": true
       },
-      "hash": "c9838960538c272fb84ea244457bae8f137289128fcce9523beac9c420d493ab"
+      "hash": "d07ee2456f583cda24f40e9e33cecce4780b6f46d43add6d73bbde95d2fe8c93"
     },
     {
       "case_id": "CB-017",
       "path": "cases/CB-017.json",
-      "state": "PASS",
+      "state": "BLOCK",
       "expected_state": "BLOCK",
-      "expected_match": false,
+      "expected_match": true,
       "evaluator": {
         "case_id": "CB-017",
         "admissibility": false,
@@ -414,14 +414,14 @@
         "expected_reason": "invalid_pose_state",
         "pass": true
       },
-      "hash": "f4492077ea8dfe9dd0c2942643e08884f98b478481f9fec3594f9c975fc0e1b3"
+      "hash": "f97c4ce680e06811ebe947e37447bb84100230d6dd4aff01d8dd57c2bf19e742"
     },
     {
       "case_id": "CB-018",
       "path": "cases/CB-018.json",
-      "state": "PASS",
+      "state": "BLOCK",
       "expected_state": "BLOCK",
-      "expected_match": false,
+      "expected_match": true,
       "evaluator": {
         "case_id": "CB-018",
         "admissibility": false,
@@ -438,14 +438,14 @@
         "expected_reason": "disallowed_asset",
         "pass": true
       },
-      "hash": "e3d7769243b2390071353de0751b2c063e4b11a9ed511f2c3d9b7b75c7848494"
+      "hash": "b63749501ace5c1bc56f8000d7f3bda86be92ee04d38729f5e5785dd67aa464a"
     },
     {
       "case_id": "CB-019",
       "path": "cases/CB-019.json",
-      "state": "PASS",
+      "state": "BLOCK",
       "expected_state": "BLOCK",
-      "expected_match": false,
+      "expected_match": true,
       "evaluator": {
         "case_id": "CB-019",
         "admissibility": false,
@@ -462,14 +462,14 @@
         "expected_reason": "disallowed_classification",
         "pass": true
       },
-      "hash": "044ca8bff8cd76a02ce98453579e2b3b4badc3ca209638181d05a337d1b61a93"
+      "hash": "9ae81e1f70ac7a48833537350d0b2145d6d9a3fb33d3990031b186a8db6d8d0e"
     },
     {
       "case_id": "CB-020",
       "path": "cases/CB-020.json",
-      "state": "PASS",
+      "state": "BLOCK",
       "expected_state": "BLOCK",
-      "expected_match": false,
+      "expected_match": true,
       "evaluator": {
         "case_id": "CB-020",
         "admissibility": false,
@@ -486,7 +486,7 @@
         "expected_reason": "multi_constraint_failure",
         "pass": true
       },
-      "hash": "0c91e7da5159bdc75941f44227cff0ec76b29d409751e6f9df6f9f6a1f646e68"
+      "hash": "a3e429937ac0ce748b9c444661a1bebaa276bf66a06a875df62085f73bac5174"
     },
     {
       "case_id": "CB-021",
@@ -971,9 +971,9 @@
     {
       "case_id": "CB-041",
       "path": "cases/CB-041.json",
-      "state": "PASS",
+      "state": "BLOCK",
       "expected_state": "BLOCK",
-      "expected_match": false,
+      "expected_match": true,
       "evaluator": {
         "case_id": "CB-041",
         "admissibility": false,
@@ -990,14 +990,14 @@
         "expected_reason": "admissibility_tamper_detected",
         "pass": true
       },
-      "hash": "edd811faf4e0a7b4abcc5f953e2b6bac047f49595c640f3e75989bf33ef153ef"
+      "hash": "b14f73eb3982aa7e8e9f0f693a5a73a66fa5e4b06ee6c66ac3c75005a6452c12"
     },
     {
       "case_id": "CB-042",
       "path": "cases/CB-042.json",
-      "state": "BLOCK",
+      "state": "PASS",
       "expected_state": "BLOCK",
-      "expected_match": true,
+      "expected_match": false,
       "evaluator": {
         "case_id": "CB-042",
         "admissibility": true,
@@ -1014,7 +1014,7 @@
         "expected_reason": "invalid_safety_state",
         "pass": false
       },
-      "hash": "0e932d39b054bcb03fb6f540b65ec4eefde7edb3a013e98245b96c8bdfaa9a9e"
+      "hash": "8cd2c0c1a4f819dd54080bb990c590d25eb0b36d4c57f3a19a0d3cf9b1113273"
     },
     {
       "case_id": "CB-043",
@@ -1450,5 +1450,5 @@
     }
   ],
   "integrity_chain_length": 60,
-  "status": "DELTA_ADVERSARIAL_ENGINE_ACTIVE"
+  "status": "DELTA_ENGINE_DELEGATES_TO_CONSTITUTIONAL_EVALUATOR"
 }
