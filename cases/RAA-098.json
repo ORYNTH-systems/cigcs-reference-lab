@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Canonical Distributed Artifact",
+    "case_id":  "RAA-098",
+    "expected_reason":  "golden_distributed_artifact",
+    "glyph":  {
+                  "canonical_hash":  "raa098-canonical-hash",
+                  "glyph_id":  "CGO-RAA-098"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

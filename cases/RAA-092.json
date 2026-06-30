@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Canonical Artifact Verification",
+    "case_id":  "RAA-092",
+    "expected_reason":  "golden_artifact_verification",
+    "glyph":  {
+                  "canonical_hash":  "raa092-canonical-hash",
+                  "glyph_id":  "CGO-RAA-092"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

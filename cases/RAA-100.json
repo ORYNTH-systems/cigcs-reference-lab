@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Canonical Render Authorization Artifact Reference",
+    "case_id":  "RAA-100",
+    "expected_reason":  "golden_render_authorization_artifact_reference",
+    "glyph":  {
+                  "canonical_hash":  "raa100-canonical-hash",
+                  "glyph_id":  "CGO-RAA-100"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Canonical Replay Protection",
+    "case_id":  "RAA-095",
+    "expected_reason":  "golden_replay_protection",
+    "glyph":  {
+                  "canonical_hash":  "raa095-canonical-hash",
+                  "glyph_id":  "CGO-RAA-095"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

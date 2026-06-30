@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Canonical Artifact Lifecycle",
+    "case_id":  "RAA-093",
+    "expected_reason":  "golden_artifact_lifecycle",
+    "glyph":  {
+                  "canonical_hash":  "raa093-canonical-hash",
+                  "glyph_id":  "CGO-RAA-093"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

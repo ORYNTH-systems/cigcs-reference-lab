@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Canonical Artifact Binding",
+    "case_id":  "RAA-094",
+    "expected_reason":  "golden_artifact_binding",
+    "glyph":  {
+                  "canonical_hash":  "raa094-canonical-hash",
+                  "glyph_id":  "CGO-RAA-094"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
