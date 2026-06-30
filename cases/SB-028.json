@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Unsafe Human Proximity",
+    "case_id":  "SB-028",
+    "expected_reason":  "unsafe_human_proximity",
+    "glyph":  {
+                  "canonical_hash":  "sb028-canonical-hash",
+                  "glyph_id":  "CGO-SB-028"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

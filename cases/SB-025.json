@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Operator Fatigue Threshold",
+    "case_id":  "SB-025",
+    "expected_reason":  "fatigue_threshold_exceeded",
+    "glyph":  {
+                  "canonical_hash":  "sb025-canonical-hash",
+                  "glyph_id":  "CGO-SB-025"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

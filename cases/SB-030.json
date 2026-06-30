@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Human Safety Restoration",
+    "case_id":  "SB-030",
+    "expected_reason":  "human_safety_restored",
+    "glyph":  {
+                  "canonical_hash":  "sb030-canonical-hash",
+                  "glyph_id":  "CGO-SB-030"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

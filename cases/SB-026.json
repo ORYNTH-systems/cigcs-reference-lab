@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Human Override Invoked",
+    "case_id":  "SB-026",
+    "expected_reason":  "human_override_invoked",
+    "glyph":  {
+                  "canonical_hash":  "sb026-canonical-hash",
+                  "glyph_id":  "CGO-SB-026"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

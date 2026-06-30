@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Operator Exposure",
+    "case_id":  "SB-021",
+    "expected_reason":  "operator_exposure_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb021-canonical-hash",
+                  "glyph_id":  "CGO-SB-021"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

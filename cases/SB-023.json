@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Unsafe Accessibility",
+    "case_id":  "SB-023",
+    "expected_reason":  "unsafe_accessibility_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb023-canonical-hash",
+                  "glyph_id":  "CGO-SB-023"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

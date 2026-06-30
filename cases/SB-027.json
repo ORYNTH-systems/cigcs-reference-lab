@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Emergency Stop Activation",
+    "case_id":  "SB-027",
+    "expected_reason":  "emergency_stop_activated",
+    "glyph":  {
+                  "canonical_hash":  "sb027-canonical-hash",
+                  "glyph_id":  "CGO-SB-027"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

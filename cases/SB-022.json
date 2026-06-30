@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Unsafe Visibility",
+    "case_id":  "SB-022",
+    "expected_reason":  "unsafe_visibility_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb022-canonical-hash",
+                  "glyph_id":  "CGO-SB-022"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

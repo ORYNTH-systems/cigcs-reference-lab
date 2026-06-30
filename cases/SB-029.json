@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Cognitive Overload",
+    "case_id":  "SB-029",
+    "expected_reason":  "cognitive_overload_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb029-canonical-hash",
+                  "glyph_id":  "CGO-SB-029"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

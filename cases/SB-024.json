@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Unsafe Human Interaction",
+    "case_id":  "SB-024",
+    "expected_reason":  "unsafe_human_interaction",
+    "glyph":  {
+                  "canonical_hash":  "sb024-canonical-hash",
+                  "glyph_id":  "CGO-SB-024"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
