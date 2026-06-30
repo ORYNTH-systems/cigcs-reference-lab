@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Constitutional Integrity Restoration",
+    "case_id":  "CE-068",
+    "expected_reason":  "constitutional_integrity_restored",
+    "glyph":  {
+                  "canonical_hash":  "ce068-canonical-hash",
+                  "glyph_id":  "CGO-CE-068"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

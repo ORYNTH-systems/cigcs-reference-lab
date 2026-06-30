@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Complete Constitutional Recovery",
+    "case_id":  "CE-069",
+    "expected_reason":  "complete_constitutional_recovery",
+    "glyph":  {
+                  "canonical_hash":  "ce069-canonical-hash",
+                  "glyph_id":  "CGO-CE-069"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

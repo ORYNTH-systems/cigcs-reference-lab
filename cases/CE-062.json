@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Constitutional Reconciliation",
+    "case_id":  "CE-062",
+    "expected_reason":  "constitutional_reconciliation_completed",
+    "glyph":  {
+                  "canonical_hash":  "ce062-canonical-hash",
+                  "glyph_id":  "CGO-CE-062"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

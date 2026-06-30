@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Constitutional Multi-Object Recovery",
+    "case_id":  "CE-067",
+    "expected_reason":  "constitutional_multi_object_recovered",
+    "glyph":  {
+                  "canonical_hash":  "ce067-canonical-hash",
+                  "glyph_id":  "CGO-CE-067"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

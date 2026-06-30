@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Constitutional Evidence Recovery",
+    "case_id":  "CE-063",
+    "expected_reason":  "constitutional_evidence_recovered",
+    "glyph":  {
+                  "canonical_hash":  "ce063-canonical-hash",
+                  "glyph_id":  "CGO-CE-063"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

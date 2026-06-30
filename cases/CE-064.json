@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Constitutional Artifact Recovery",
+    "case_id":  "CE-064",
+    "expected_reason":  "constitutional_artifact_recovered",
+    "glyph":  {
+                  "canonical_hash":  "ce064-canonical-hash",
+                  "glyph_id":  "CGO-CE-064"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

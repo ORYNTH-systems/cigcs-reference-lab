@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Constitutional Recovery Baseline",
+    "case_id":  "CE-070",
+    "expected_reason":  "constitutional_recovery_baseline",
+    "glyph":  {
+                  "canonical_hash":  "ce070-canonical-hash",
+                  "glyph_id":  "CGO-CE-070"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

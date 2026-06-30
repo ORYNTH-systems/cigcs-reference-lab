@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Constitutional State Restoration",
+    "case_id":  "CE-061",
+    "expected_reason":  "constitutional_state_restored",
+    "glyph":  {
+                  "canonical_hash":  "ce061-canonical-hash",
+                  "glyph_id":  "CGO-CE-061"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Constitutional Admissibility Recovery",
+    "case_id":  "CE-066",
+    "expected_reason":  "constitutional_admissibility_recovered",
+    "glyph":  {
+                  "canonical_hash":  "ce066-canonical-hash",
+                  "glyph_id":  "CGO-CE-066"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
