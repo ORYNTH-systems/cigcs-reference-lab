@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Invariant 8 Constitutional Closure",
+    "case_id":  "CE-008",
+    "expected_reason":  "invariant_constitutional_closure",
+    "glyph":  {
+                  "canonical_hash":  "ce008-canonical-hash",
+                  "glyph_id":  "CGO-CE-008"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

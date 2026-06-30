@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Invariant 1 Boundary Enforcement",
+    "case_id":  "CE-001",
+    "expected_reason":  "invariant_boundary_enforced",
+    "glyph":  {
+                  "canonical_hash":  "ce001-canonical-hash",
+                  "glyph_id":  "CGO-CE-001"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

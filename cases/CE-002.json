@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Invariant 2 Admissibility Preservation",
+    "case_id":  "CE-002",
+    "expected_reason":  "invariant_admissibility_preserved",
+    "glyph":  {
+                  "canonical_hash":  "ce002-canonical-hash",
+                  "glyph_id":  "CGO-CE-002"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

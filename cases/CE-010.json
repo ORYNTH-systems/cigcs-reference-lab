@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Canonical Invariant Baseline",
+    "case_id":  "CE-010",
+    "expected_reason":  "canonical_invariant_baseline",
+    "glyph":  {
+                  "canonical_hash":  "ce010-canonical-hash",
+                  "glyph_id":  "CGO-CE-010"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

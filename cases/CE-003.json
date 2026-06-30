@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Invariant 3 Safety Dominance",
+    "case_id":  "CE-003",
+    "expected_reason":  "invariant_safety_dominance",
+    "glyph":  {
+                  "canonical_hash":  "ce003-canonical-hash",
+                  "glyph_id":  "CGO-CE-003"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

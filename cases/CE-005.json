@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Invariant 5 Deterministic Evaluation",
+    "case_id":  "CE-005",
+    "expected_reason":  "invariant_deterministic_evaluation",
+    "glyph":  {
+                  "canonical_hash":  "ce005-canonical-hash",
+                  "glyph_id":  "CGO-CE-005"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

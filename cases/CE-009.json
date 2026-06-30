@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Compound Invariant Agreement",
+    "case_id":  "CE-009",
+    "expected_reason":  "compound_invariant_agreement",
+    "glyph":  {
+                  "canonical_hash":  "ce009-canonical-hash",
+                  "glyph_id":  "CGO-CE-009"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

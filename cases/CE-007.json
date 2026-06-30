@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Invariant 7 Replay Resistance",
+    "case_id":  "CE-007",
+    "expected_reason":  "invariant_replay_resistance",
+    "glyph":  {
+                  "canonical_hash":  "ce007-canonical-hash",
+                  "glyph_id":  "CGO-CE-007"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
