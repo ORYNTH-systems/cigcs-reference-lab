@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Artifact Hash Mutation",
+    "case_id":  "RAA-062",
+    "expected_reason":  "artifact_hash_mutation_detected",
+    "glyph":  {
+                  "canonical_hash":  "raa062-canonical-hash",
+                  "glyph_id":  "CGO-RAA-062"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

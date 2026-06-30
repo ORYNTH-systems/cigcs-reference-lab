@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Artifact Metadata Corruption",
+    "case_id":  "RAA-066",
+    "expected_reason":  "artifact_metadata_corruption_detected",
+    "glyph":  {
+                  "canonical_hash":  "raa066-canonical-hash",
+                  "glyph_id":  "CGO-RAA-066"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

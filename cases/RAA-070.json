@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Artifact Integrity Baseline",
+    "case_id":  "RAA-070",
+    "expected_reason":  "artifact_integrity_baseline",
+    "glyph":  {
+                  "canonical_hash":  "raa070-canonical-hash",
+                  "glyph_id":  "CGO-RAA-070"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

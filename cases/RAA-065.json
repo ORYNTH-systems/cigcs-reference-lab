@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Artifact Metadata Integrity",
+    "case_id":  "RAA-065",
+    "expected_reason":  "artifact_metadata_integrity_verified",
+    "glyph":  {
+                  "canonical_hash":  "raa065-canonical-hash",
+                  "glyph_id":  "CGO-RAA-065"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

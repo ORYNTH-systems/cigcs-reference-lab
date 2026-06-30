@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Artifact Signature Corruption",
+    "case_id":  "RAA-068",
+    "expected_reason":  "artifact_signature_corruption_detected",
+    "glyph":  {
+                  "canonical_hash":  "raa068-canonical-hash",
+                  "glyph_id":  "CGO-RAA-068"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Compound Artifact Integrity",
+    "case_id":  "RAA-069",
+    "expected_reason":  "compound_artifact_integrity_verified",
+    "glyph":  {
+                  "canonical_hash":  "raa069-canonical-hash",
+                  "glyph_id":  "CGO-RAA-069"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

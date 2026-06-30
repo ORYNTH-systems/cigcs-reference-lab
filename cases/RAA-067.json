@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Artifact Signature Integrity",
+    "case_id":  "RAA-067",
+    "expected_reason":  "artifact_signature_integrity_verified",
+    "glyph":  {
+                  "canonical_hash":  "raa067-canonical-hash",
+                  "glyph_id":  "CGO-RAA-067"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
