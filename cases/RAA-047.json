@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Sequence Validation",
+    "case_id":  "RAA-047",
+    "expected_reason":  "sequence_verified",
+    "glyph":  {
+                  "canonical_hash":  "raa047-canonical-hash",
+                  "glyph_id":  "CGO-RAA-047"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

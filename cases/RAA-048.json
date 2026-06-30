@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Out-of-Order Replay",
+    "case_id":  "RAA-048",
+    "expected_reason":  "out_of_order_replay",
+    "glyph":  {
+                  "canonical_hash":  "raa048-canonical-hash",
+                  "glyph_id":  "CGO-RAA-048"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

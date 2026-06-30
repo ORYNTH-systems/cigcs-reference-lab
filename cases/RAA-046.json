@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Expired Artifact Replay",
+    "case_id":  "RAA-046",
+    "expected_reason":  "expired_artifact_replay",
+    "glyph":  {
+                  "canonical_hash":  "raa046-canonical-hash",
+                  "glyph_id":  "CGO-RAA-046"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

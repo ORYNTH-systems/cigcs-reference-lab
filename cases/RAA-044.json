@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Nonce Reuse Detected",
+    "case_id":  "RAA-044",
+    "expected_reason":  "nonce_reuse_detected",
+    "glyph":  {
+                  "canonical_hash":  "raa044-canonical-hash",
+                  "glyph_id":  "CGO-RAA-044"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

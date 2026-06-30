@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Nonce Verification",
+    "case_id":  "RAA-043",
+    "expected_reason":  "nonce_verified",
+    "glyph":  {
+                  "canonical_hash":  "raa043-canonical-hash",
+                  "glyph_id":  "CGO-RAA-043"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

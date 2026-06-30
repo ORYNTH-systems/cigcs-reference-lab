@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Replay Prevention Success",
+    "case_id":  "RAA-049",
+    "expected_reason":  "replay_prevention_success",
+    "glyph":  {
+                  "canonical_hash":  "raa049-canonical-hash",
+                  "glyph_id":  "CGO-RAA-049"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

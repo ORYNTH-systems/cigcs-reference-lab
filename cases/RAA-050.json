@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Replay Protection Baseline",
+    "case_id":  "RAA-050",
+    "expected_reason":  "replay_protection_baseline",
+    "glyph":  {
+                  "canonical_hash":  "raa050-canonical-hash",
+                  "glyph_id":  "CGO-RAA-050"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

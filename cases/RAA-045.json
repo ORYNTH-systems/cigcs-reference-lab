@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Timestamp Validation",
+    "case_id":  "RAA-045",
+    "expected_reason":  "timestamp_verified",
+    "glyph":  {
+                  "canonical_hash":  "raa045-canonical-hash",
+                  "glyph_id":  "CGO-RAA-045"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

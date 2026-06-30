@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Replay Attack Detected",
+    "case_id":  "RAA-042",
+    "expected_reason":  "replay_attack_detected",
+    "glyph":  {
+                  "canonical_hash":  "raa042-canonical-hash",
+                  "glyph_id":  "CGO-RAA-042"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
