@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Constraint Drift Detection",
+    "case_id":  "CE-058",
+    "expected_reason":  "constraint_drift_detected",
+    "glyph":  {
+                  "canonical_hash":  "ce058-canonical-hash",
+                  "glyph_id":  "CGO-CE-058"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Constraint Removal",
+    "case_id":  "CE-052",
+    "expected_reason":  "constraint_removal_detected",
+    "glyph":  {
+                  "canonical_hash":  "ce052-canonical-hash",
+                  "glyph_id":  "CGO-CE-052"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  false
+                       }
+}

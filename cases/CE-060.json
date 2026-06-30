@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Constraint Mutation Baseline",
+    "case_id":  "CE-060",
+    "expected_reason":  "constraint_mutation_baseline",
+    "glyph":  {
+                  "canonical_hash":  "ce060-canonical-hash",
+                  "glyph_id":  "CGO-CE-060"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Constraint Preservation Under Mutation",
+    "case_id":  "CE-059",
+    "expected_reason":  "constraint_preservation_verified",
+    "glyph":  {
+                  "canonical_hash":  "ce059-canonical-hash",
+                  "glyph_id":  "CGO-CE-059"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Constraint Relaxation",
+    "case_id":  "CE-054",
+    "expected_reason":  "constraint_relaxation_verified",
+    "glyph":  {
+                  "canonical_hash":  "ce054-canonical-hash",
+                  "glyph_id":  "CGO-CE-054"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

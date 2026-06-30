@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Constraint Conflict Resolution",
+    "case_id":  "CE-055",
+    "expected_reason":  "constraint_conflict_resolved",
+    "glyph":  {
+                  "canonical_hash":  "ce055-canonical-hash",
+                  "glyph_id":  "CGO-CE-055"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

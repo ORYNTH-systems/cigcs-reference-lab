@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Constraint Dependency Mutation",
+    "case_id":  "CE-056",
+    "expected_reason":  "constraint_dependency_mutation",
+    "glyph":  {
+                  "canonical_hash":  "ce056-canonical-hash",
+                  "glyph_id":  "CGO-CE-056"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

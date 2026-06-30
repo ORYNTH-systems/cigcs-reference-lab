@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Constraint Version Transition",
+    "case_id":  "CE-057",
+    "expected_reason":  "constraint_version_transition",
+    "glyph":  {
+                  "canonical_hash":  "ce057-canonical-hash",
+                  "glyph_id":  "CGO-CE-057"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
