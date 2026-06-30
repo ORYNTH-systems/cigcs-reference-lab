@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Missing Required Artifact Field",
+    "case_id":  "RAA-002",
+    "expected_reason":  "missing_required_artifact_field",
+    "glyph":  {
+                  "canonical_hash":  "raa002-canonical-hash",
+                  "glyph_id":  "CGO-RAA-002"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

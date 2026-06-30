@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Canonical Artifact Issuance",
+    "case_id":  "RAA-001",
+    "expected_reason":  "canonical_artifact_issued",
+    "glyph":  {
+                  "canonical_hash":  "raa001-canonical-hash",
+                  "glyph_id":  "CGO-RAA-001"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

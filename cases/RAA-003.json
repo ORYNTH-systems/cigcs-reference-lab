@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Invalid Issuer Identity",
+    "case_id":  "RAA-003",
+    "expected_reason":  "invalid_issuer_identity",
+    "glyph":  {
+                  "canonical_hash":  "raa003-canonical-hash",
+                  "glyph_id":  "CGO-RAA-003"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

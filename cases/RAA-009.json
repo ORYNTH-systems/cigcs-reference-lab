@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Incomplete Artifact Construction",
+    "case_id":  "RAA-009",
+    "expected_reason":  "incomplete_artifact_construction",
+    "glyph":  {
+                  "canonical_hash":  "raa009-canonical-hash",
+                  "glyph_id":  "CGO-RAA-009"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

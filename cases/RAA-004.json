@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Duplicate Artifact Identifier",
+    "case_id":  "RAA-004",
+    "expected_reason":  "duplicate_artifact_identifier",
+    "glyph":  {
+                  "canonical_hash":  "raa004-canonical-hash",
+                  "glyph_id":  "CGO-RAA-004"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

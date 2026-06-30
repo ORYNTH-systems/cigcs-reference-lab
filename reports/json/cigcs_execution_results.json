@@ -1,10 +1,10 @@
 {
   "summary": {
-    "total_cases": 190,
-    "PASS": 43,
-    "BLOCK": 147,
+    "total_cases": 200,
+    "PASS": 45,
+    "BLOCK": 155,
     "QUARANTINE": 0,
-    "expected_matches": 190,
+    "expected_matches": 200,
     "expected_mismatches": 0
   },
   "results": [
@@ -2167,6 +2167,246 @@
         "pass": true
       },
       "hash": "9cfa8c87db48f124cbb6587bde6e763c76a4309328a035f78d70b4ba20a45206"
+    },
+    {
+      "case_id": "RAA-001",
+      "path": "cases/RAA-001.json",
+      "state": "PASS",
+      "expected_state": "PASS",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "RAA-001",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": true,
+          "reason": "all_constraints_satisfied"
+        },
+        "blocked": false,
+        "admitted": true,
+        "reason": "all_constraints_satisfied",
+        "expected": "admitted",
+        "expected_reason": "canonical_artifact_issued",
+        "pass": true
+      },
+      "hash": "993d0f428647c5946be6c7ea31d9da7ff96573c350ccf5c97c9c0d2960c697d6"
+    },
+    {
+      "case_id": "RAA-002",
+      "path": "cases/RAA-002.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "RAA-002",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": false,
+        "consistency": {
+          "consistent": false,
+          "reason": "render_boundary_missing"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "render_boundary_missing",
+        "expected": "blocked",
+        "expected_reason": "missing_required_artifact_field",
+        "pass": true
+      },
+      "hash": "97f8c47ce29c51c97796d21c976488ebd3add84f5ebcfecd92fc62b3fca184fe"
+    },
+    {
+      "case_id": "RAA-003",
+      "path": "cases/RAA-003.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "RAA-003",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": false,
+        "consistency": {
+          "consistent": false,
+          "reason": "render_boundary_missing"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "render_boundary_missing",
+        "expected": "blocked",
+        "expected_reason": "invalid_issuer_identity",
+        "pass": true
+      },
+      "hash": "9e967fa518f1e58f6eff036df4c34699f3d14269de9a399176c073e7d41b59e7"
+    },
+    {
+      "case_id": "RAA-004",
+      "path": "cases/RAA-004.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "RAA-004",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": false,
+        "consistency": {
+          "consistent": false,
+          "reason": "render_boundary_missing"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "render_boundary_missing",
+        "expected": "blocked",
+        "expected_reason": "duplicate_artifact_identifier",
+        "pass": true
+      },
+      "hash": "9cb3cd0c55a13187e6cc14b54af4ef4bbb784c158f33be8d9ca4523c4b5fdccb"
+    },
+    {
+      "case_id": "RAA-005",
+      "path": "cases/RAA-005.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "RAA-005",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": false,
+        "consistency": {
+          "consistent": false,
+          "reason": "render_boundary_missing"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "render_boundary_missing",
+        "expected": "blocked",
+        "expected_reason": "invalid_canonical_hash",
+        "pass": true
+      },
+      "hash": "18e0a69c1a71559646dd2d023f1e59aba015f901de1e5ea9148a7577e5858113"
+    },
+    {
+      "case_id": "RAA-006",
+      "path": "cases/RAA-006.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "RAA-006",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": false,
+        "consistency": {
+          "consistent": false,
+          "reason": "render_boundary_missing"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "render_boundary_missing",
+        "expected": "blocked",
+        "expected_reason": "invalid_constraint_binding",
+        "pass": true
+      },
+      "hash": "c37223609fd51c328779997d9f4b4f4e1262be4835087c0783cadec5b6a5a9f9"
+    },
+    {
+      "case_id": "RAA-007",
+      "path": "cases/RAA-007.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "RAA-007",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": false,
+        "consistency": {
+          "consistent": false,
+          "reason": "render_boundary_missing"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "render_boundary_missing",
+        "expected": "blocked",
+        "expected_reason": "invalid_glyph_binding",
+        "pass": true
+      },
+      "hash": "4c129af9bd773d89c3e5dfd1ef96f38f56e367c89fac2c9789b4008e1e564d45"
+    },
+    {
+      "case_id": "RAA-008",
+      "path": "cases/RAA-008.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "RAA-008",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": false,
+        "consistency": {
+          "consistent": false,
+          "reason": "render_boundary_missing"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "render_boundary_missing",
+        "expected": "blocked",
+        "expected_reason": "issuance_policy_violation",
+        "pass": true
+      },
+      "hash": "bccecdb7766055adfb967c0b43670a59847aef1e0318212cc762c0bd97591bf3"
+    },
+    {
+      "case_id": "RAA-009",
+      "path": "cases/RAA-009.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "RAA-009",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": false,
+        "consistency": {
+          "consistent": false,
+          "reason": "render_boundary_missing"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "render_boundary_missing",
+        "expected": "blocked",
+        "expected_reason": "incomplete_artifact_construction",
+        "pass": true
+      },
+      "hash": "55f1de5e787c3607b658f0d60d4d8c823e70b8396c3bad9a6bbecf4738d32404"
+    },
+    {
+      "case_id": "RAA-010",
+      "path": "cases/RAA-010.json",
+      "state": "PASS",
+      "expected_state": "PASS",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "RAA-010",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": true,
+          "reason": "all_constraints_satisfied"
+        },
+        "blocked": false,
+        "admitted": true,
+        "reason": "all_constraints_satisfied",
+        "expected": "admitted",
+        "expected_reason": "canonical_artifact_baseline",
+        "pass": true
+      },
+      "hash": "c187000a3573833a5239985e91281fdc3c516fedea5d98dd1ce4f2d6bb195cca"
     },
     {
       "case_id": "SB-001",
@@ -4569,6 +4809,6 @@
       "hash": "c484aa53dadf6a902c825fc2eccff90f28907a09658ae6c7557f638ec199d855"
     }
   ],
-  "integrity_chain_length": 190,
+  "integrity_chain_length": 200,
   "status": "DELTA_ENGINE_DELEGATES_TO_CONSTITUTIONAL_EVALUATOR"
 }

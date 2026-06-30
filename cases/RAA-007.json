@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Invalid Glyph Binding",
+    "case_id":  "RAA-007",
+    "expected_reason":  "invalid_glyph_binding",
+    "glyph":  {
+                  "canonical_hash":  "raa007-canonical-hash",
+                  "glyph_id":  "CGO-RAA-007"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

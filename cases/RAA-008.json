@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Issuance Policy Violation",
+    "case_id":  "RAA-008",
+    "expected_reason":  "issuance_policy_violation",
+    "glyph":  {
+                  "canonical_hash":  "raa008-canonical-hash",
+                  "glyph_id":  "CGO-RAA-008"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
