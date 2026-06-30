@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "False Telemetry",
+    "case_id":  "SB-063",
+    "expected_reason":  "false_telemetry_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb063-canonical-hash",
+                  "glyph_id":  "CGO-SB-063"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Coordinated Adversarial Attack",
+    "case_id":  "SB-069",
+    "expected_reason":  "coordinated_adversarial_attack_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb069-canonical-hash",
+                  "glyph_id":  "CGO-SB-069"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

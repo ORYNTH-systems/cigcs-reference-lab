@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Adversarial Policy Injection",
+    "case_id":  "SB-068",
+    "expected_reason":  "adversarial_policy_injection_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb068-canonical-hash",
+                  "glyph_id":  "CGO-SB-068"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

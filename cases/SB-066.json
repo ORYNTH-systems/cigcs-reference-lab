@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Safety Artifact Tampering",
+    "case_id":  "SB-066",
+    "expected_reason":  "safety_artifact_tampering_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb066-canonical-hash",
+                  "glyph_id":  "CGO-SB-066"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

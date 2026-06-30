@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Safety Replay Attack",
+    "case_id":  "SB-065",
+    "expected_reason":  "safety_replay_attack_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb065-canonical-hash",
+                  "glyph_id":  "CGO-SB-065"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

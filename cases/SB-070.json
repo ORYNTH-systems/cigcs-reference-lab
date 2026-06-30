@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Compound Adversarial Safety Failure",
+    "case_id":  "SB-070",
+    "expected_reason":  "compound_adversarial_safety_failure",
+    "glyph":  {
+                  "canonical_hash":  "sb070-canonical-hash",
+                  "glyph_id":  "CGO-SB-070"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Safety Bypass Attempt",
+    "case_id":  "SB-064",
+    "expected_reason":  "safety_bypass_attempt_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb064-canonical-hash",
+                  "glyph_id":  "CGO-SB-064"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

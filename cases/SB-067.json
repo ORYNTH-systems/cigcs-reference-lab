@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Deceptive Evidence",
+    "case_id":  "SB-067",
+    "expected_reason":  "deceptive_evidence_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb067-canonical-hash",
+                  "glyph_id":  "CGO-SB-067"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

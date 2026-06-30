@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Spoofed Sensor",
+    "case_id":  "SB-061",
+    "expected_reason":  "spoofed_sensor_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb061-canonical-hash",
+                  "glyph_id":  "CGO-SB-061"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
