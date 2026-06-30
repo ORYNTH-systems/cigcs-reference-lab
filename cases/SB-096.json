@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Canonical Distributed Safety",
+    "case_id":  "SB-096",
+    "expected_reason":  "golden_distributed_safety",
+    "glyph":  {
+                  "canonical_hash":  "sb096-canonical-hash",
+                  "glyph_id":  "CGO-SB-096"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

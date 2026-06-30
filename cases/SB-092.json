@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Canonical Unsafe Execution",
+    "case_id":  "SB-092",
+    "expected_reason":  "golden_unsafe_execution",
+    "glyph":  {
+                  "canonical_hash":  "sb092-canonical-hash",
+                  "glyph_id":  "CGO-SB-092"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

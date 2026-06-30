@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Canonical Safety Recovery",
+    "case_id":  "SB-097",
+    "expected_reason":  "golden_safety_recovery",
+    "glyph":  {
+                  "canonical_hash":  "sb097-canonical-hash",
+                  "glyph_id":  "CGO-SB-097"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

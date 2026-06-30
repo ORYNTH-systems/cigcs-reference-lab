@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Canonical Human Protection",
+    "case_id":  "SB-093",
+    "expected_reason":  "golden_human_protection",
+    "glyph":  {
+                  "canonical_hash":  "sb093-canonical-hash",
+                  "glyph_id":  "CGO-SB-093"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

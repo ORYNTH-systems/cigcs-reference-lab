@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Canonical Runtime Safety",
+    "case_id":  "SB-095",
+    "expected_reason":  "golden_runtime_safety",
+    "glyph":  {
+                  "canonical_hash":  "sb095-canonical-hash",
+                  "glyph_id":  "CGO-SB-095"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

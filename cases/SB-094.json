@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Canonical Autonomous Safety",
+    "case_id":  "SB-094",
+    "expected_reason":  "golden_autonomous_safety",
+    "glyph":  {
+                  "canonical_hash":  "sb094-canonical-hash",
+                  "glyph_id":  "CGO-SB-094"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

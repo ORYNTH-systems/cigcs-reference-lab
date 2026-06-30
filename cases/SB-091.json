@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Canonical Safe Execution",
+    "case_id":  "SB-091",
+    "expected_reason":  "golden_safe_execution",
+    "glyph":  {
+                  "canonical_hash":  "sb091-canonical-hash",
+                  "glyph_id":  "CGO-SB-091"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

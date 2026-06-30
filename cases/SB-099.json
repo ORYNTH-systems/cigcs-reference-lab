@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Canonical Safety Regression",
+    "case_id":  "SB-099",
+    "expected_reason":  "golden_safety_regression",
+    "glyph":  {
+                  "canonical_hash":  "sb099-canonical-hash",
+                  "glyph_id":  "CGO-SB-099"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

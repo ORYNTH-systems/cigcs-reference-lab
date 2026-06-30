@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Canonical Adversarial Safety",
+    "case_id":  "SB-098",
+    "expected_reason":  "golden_adversarial_safety",
+    "glyph":  {
+                  "canonical_hash":  "sb098-canonical-hash",
+                  "glyph_id":  "CGO-SB-098"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Canonical Safety Reference Proof",
+    "case_id":  "SB-100",
+    "expected_reason":  "golden_safety_reference_proof",
+    "glyph":  {
+                  "canonical_hash":  "sb100-canonical-hash",
+                  "glyph_id":  "CGO-SB-100"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
