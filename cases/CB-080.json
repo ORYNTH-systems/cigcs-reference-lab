@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Distributed Constitutional Convergence",
+    "case_id":  "CB-080",
+    "expected_reason":  "distributed_constitutional_convergence",
+    "glyph":  {
+                  "canonical_hash":  "cb080-canonical-hash",
+                  "glyph_id":  "CGO-CB-080"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

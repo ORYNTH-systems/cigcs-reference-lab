@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Network Partition",
+    "case_id":  "CB-074",
+    "expected_reason":  "network_partition_detected",
+    "glyph":  {
+                  "canonical_hash":  "cb074-canonical-hash",
+                  "glyph_id":  "CGO-CB-074"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  false
+                       }
+}

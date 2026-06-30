@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Split-Brain Recovery",
+    "case_id":  "CB-075",
+    "expected_reason":  "split_brain_detected",
+    "glyph":  {
+                  "canonical_hash":  "cb075-canonical-hash",
+                  "glyph_id":  "CGO-CB-075"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  false
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Replica State Agreement",
+    "case_id":  "CB-071",
+    "expected_reason":  "replica_state_agreement",
+    "glyph":  {
+                  "canonical_hash":  "cb071-canonical-hash",
+                  "glyph_id":  "CGO-CB-071"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

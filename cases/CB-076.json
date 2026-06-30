@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Delayed Synchronization",
+    "case_id":  "CB-076",
+    "expected_reason":  "delayed_synchronization",
+    "glyph":  {
+                  "canonical_hash":  "cb076-canonical-hash",
+                  "glyph_id":  "CGO-CB-076"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

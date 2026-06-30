@@ -1,10 +1,10 @@
 {
   "summary": {
-    "total_cases": 70,
-    "PASS": 6,
-    "BLOCK": 64,
+    "total_cases": 80,
+    "PASS": 10,
+    "BLOCK": 70,
     "QUARANTINE": 0,
-    "expected_matches": 70,
+    "expected_matches": 80,
     "expected_mismatches": 0
   },
   "results": [
@@ -1687,8 +1687,248 @@
         "pass": true
       },
       "hash": "8f7b42d13a2ae76feba00c48756474d76299ef0e20cad7223678108dca790319"
+    },
+    {
+      "case_id": "CB-071",
+      "path": "cases/CB-071.json",
+      "state": "PASS",
+      "expected_state": "PASS",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CB-071",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": true,
+          "reason": "all_constraints_satisfied"
+        },
+        "blocked": false,
+        "admitted": true,
+        "reason": "all_constraints_satisfied",
+        "expected": "admitted",
+        "expected_reason": "replica_state_agreement",
+        "pass": true
+      },
+      "hash": "f916dda02cd3caf63424a7e9677d785c1d35d958f258171bb66cb2105cb0de9b"
+    },
+    {
+      "case_id": "CB-072",
+      "path": "cases/CB-072.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CB-072",
+        "admissibility": false,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": false,
+          "reason": "constitutional_constraints_not_satisfied"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "constitutional_constraints_not_satisfied",
+        "expected": "blocked",
+        "expected_reason": "replica_state_disagreement",
+        "pass": true
+      },
+      "hash": "54124b5a41d2f2da1a66cf6ed36adc7ca023a6b9182384ff647654e4b6d3bd98"
+    },
+    {
+      "case_id": "CB-073",
+      "path": "cases/CB-073.json",
+      "state": "PASS",
+      "expected_state": "PASS",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CB-073",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": true,
+          "reason": "all_constraints_satisfied"
+        },
+        "blocked": false,
+        "admitted": true,
+        "reason": "all_constraints_satisfied",
+        "expected": "admitted",
+        "expected_reason": "clock_skew_tolerance",
+        "pass": true
+      },
+      "hash": "fe569d881234b2a0266453d91de579f1b5162e284cb74373936f8dec7d028d00"
+    },
+    {
+      "case_id": "CB-074",
+      "path": "cases/CB-074.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CB-074",
+        "admissibility": false,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": false,
+          "reason": "constitutional_constraints_not_satisfied"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "constitutional_constraints_not_satisfied",
+        "expected": "blocked",
+        "expected_reason": "network_partition_detected",
+        "pass": true
+      },
+      "hash": "66c4865ecc8ca80266e9ab80347656036d6944831019eb0001f64b249a5b4978"
+    },
+    {
+      "case_id": "CB-075",
+      "path": "cases/CB-075.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CB-075",
+        "admissibility": false,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": false,
+          "reason": "constitutional_constraints_not_satisfied"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "constitutional_constraints_not_satisfied",
+        "expected": "blocked",
+        "expected_reason": "split_brain_detected",
+        "pass": true
+      },
+      "hash": "2552fcb8d27676870fb576b49ab304dc2192da7b59c935a75d4ad5a88ec413a5"
+    },
+    {
+      "case_id": "CB-076",
+      "path": "cases/CB-076.json",
+      "state": "PASS",
+      "expected_state": "PASS",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CB-076",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": true,
+          "reason": "all_constraints_satisfied"
+        },
+        "blocked": false,
+        "admitted": true,
+        "reason": "all_constraints_satisfied",
+        "expected": "admitted",
+        "expected_reason": "delayed_synchronization",
+        "pass": true
+      },
+      "hash": "948ab20aa08c8ee1b185d80fe0247fce07d27bf1e80a8de8ae56705aaf783bae"
+    },
+    {
+      "case_id": "CB-077",
+      "path": "cases/CB-077.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CB-077",
+        "admissibility": false,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": false,
+          "reason": "constitutional_constraints_not_satisfied"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "constitutional_constraints_not_satisfied",
+        "expected": "blocked",
+        "expected_reason": "duplicate_message_detected",
+        "pass": true
+      },
+      "hash": "30f94306f42c1ad1a7cb79d8aa1fcedd20f76417f15c320bcfb79590d37277c7"
+    },
+    {
+      "case_id": "CB-078",
+      "path": "cases/CB-078.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CB-078",
+        "admissibility": false,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": false,
+          "reason": "constitutional_constraints_not_satisfied"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "constitutional_constraints_not_satisfied",
+        "expected": "blocked",
+        "expected_reason": "out_of_order_event_detected",
+        "pass": true
+      },
+      "hash": "a8d81449221bb5c5e0b9e2828bcd36bf6c96b628d6b79f06bf994a46c1589d70"
+    },
+    {
+      "case_id": "CB-079",
+      "path": "cases/CB-079.json",
+      "state": "BLOCK",
+      "expected_state": "BLOCK",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CB-079",
+        "admissibility": false,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": false,
+          "reason": "constitutional_constraints_not_satisfied"
+        },
+        "blocked": true,
+        "admitted": false,
+        "reason": "constitutional_constraints_not_satisfied",
+        "expected": "blocked",
+        "expected_reason": "stale_cache_detected",
+        "pass": true
+      },
+      "hash": "2aaa929d80ec5bb3ed0ad36b5182ee73c61618d4c887737afdc3dfa7dde8f597"
+    },
+    {
+      "case_id": "CB-080",
+      "path": "cases/CB-080.json",
+      "state": "PASS",
+      "expected_state": "PASS",
+      "expected_match": true,
+      "evaluator": {
+        "case_id": "CB-080",
+        "admissibility": true,
+        "safety": true,
+        "render_boundary": true,
+        "consistency": {
+          "consistent": true,
+          "reason": "all_constraints_satisfied"
+        },
+        "blocked": false,
+        "admitted": true,
+        "reason": "all_constraints_satisfied",
+        "expected": "admitted",
+        "expected_reason": "distributed_constitutional_convergence",
+        "pass": true
+      },
+      "hash": "e8f4f6019c09caf9b9c53bf5e64ef46c9a74c3b30bce1accb577a645e43a161a"
     }
   ],
-  "integrity_chain_length": 70,
+  "integrity_chain_length": 80,
   "status": "DELTA_ENGINE_DELEGATES_TO_CONSTITUTIONAL_EVALUATOR"
 }

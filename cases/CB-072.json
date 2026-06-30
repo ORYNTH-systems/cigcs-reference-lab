@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Replica State Disagreement",
+    "case_id":  "CB-072",
+    "expected_reason":  "replica_state_disagreement",
+    "glyph":  {
+                  "canonical_hash":  "cb072-canonical-hash",
+                  "glyph_id":  "CGO-CB-072"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  false
+                       }
+}

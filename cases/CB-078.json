@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Out-of-Order Event Reconstruction",
+    "case_id":  "CB-078",
+    "expected_reason":  "out_of_order_event_detected",
+    "glyph":  {
+                  "canonical_hash":  "cb078-canonical-hash",
+                  "glyph_id":  "CGO-CB-078"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  false
+                       }
+}

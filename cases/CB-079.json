@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Stale Cache Invalidation",
+    "case_id":  "CB-079",
+    "expected_reason":  "stale_cache_detected",
+    "glyph":  {
+                  "canonical_hash":  "cb079-canonical-hash",
+                  "glyph_id":  "CGO-CB-079"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  false
+                       }
+}

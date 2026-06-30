@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Clock Skew Tolerance",
+    "case_id":  "CB-073",
+    "expected_reason":  "clock_skew_tolerance",
+    "glyph":  {
+                  "canonical_hash":  "cb073-canonical-hash",
+                  "glyph_id":  "CGO-CB-073"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

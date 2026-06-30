@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Duplicate Message Suppression",
+    "case_id":  "CB-077",
+    "expected_reason":  "duplicate_message_detected",
+    "glyph":  {
+                  "canonical_hash":  "cb077-canonical-hash",
+                  "glyph_id":  "CGO-CB-077"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  false
+                       }
+}
