@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Replica Divergence",
+    "case_id":  "RAA-072",
+    "expected_reason":  "replica_divergence_detected",
+    "glyph":  {
+                  "canonical_hash":  "raa072-canonical-hash",
+                  "glyph_id":  "CGO-RAA-072"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

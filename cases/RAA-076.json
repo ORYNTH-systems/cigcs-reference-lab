@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Cross-Node Verification Failure",
+    "case_id":  "RAA-076",
+    "expected_reason":  "cross_node_verification_failure",
+    "glyph":  {
+                  "canonical_hash":  "raa076-canonical-hash",
+                  "glyph_id":  "CGO-RAA-076"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

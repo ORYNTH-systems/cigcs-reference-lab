@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Synchronization Failure",
+    "case_id":  "RAA-074",
+    "expected_reason":  "distributed_synchronization_failure",
+    "glyph":  {
+                  "canonical_hash":  "raa074-canonical-hash",
+                  "glyph_id":  "CGO-RAA-074"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

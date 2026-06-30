@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  false
+                 },
+    "expected_result":  "blocked",
+    "title":  "Consensus Divergence",
+    "case_id":  "RAA-078",
+    "expected_reason":  "distributed_consensus_divergence",
+    "glyph":  {
+                  "canonical_hash":  "raa078-canonical-hash",
+                  "glyph_id":  "CGO-RAA-078"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

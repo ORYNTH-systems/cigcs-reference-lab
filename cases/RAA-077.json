@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Distributed Consensus",
+    "case_id":  "RAA-077",
+    "expected_reason":  "distributed_consensus_success",
+    "glyph":  {
+                  "canonical_hash":  "raa077-canonical-hash",
+                  "glyph_id":  "CGO-RAA-077"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

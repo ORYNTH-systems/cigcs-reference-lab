@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Distributed Artifact Baseline",
+    "case_id":  "RAA-080",
+    "expected_reason":  "distributed_artifact_baseline",
+    "glyph":  {
+                  "canonical_hash":  "raa080-canonical-hash",
+                  "glyph_id":  "CGO-RAA-080"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

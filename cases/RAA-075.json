@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Cross-Node Verification",
+    "case_id":  "RAA-075",
+    "expected_reason":  "cross_node_verification_success",
+    "glyph":  {
+                  "canonical_hash":  "raa075-canonical-hash",
+                  "glyph_id":  "CGO-RAA-075"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

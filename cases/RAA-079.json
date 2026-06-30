@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Distributed Artifact Preservation",
+    "case_id":  "RAA-079",
+    "expected_reason":  "distributed_artifact_preserved",
+    "glyph":  {
+                  "canonical_hash":  "raa079-canonical-hash",
+                  "glyph_id":  "CGO-RAA-079"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
