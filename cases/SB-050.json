@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "admitted",
+    "title":  "Runtime Risk Recovery",
+    "case_id":  "SB-050",
+    "expected_reason":  "runtime_risk_recovered",
+    "glyph":  {
+                  "canonical_hash":  "sb050-canonical-hash",
+                  "glyph_id":  "CGO-SB-050"
+              },
+    "safety_predicate":  {
+                             "safe":  true
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

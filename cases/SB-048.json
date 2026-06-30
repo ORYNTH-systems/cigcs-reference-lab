@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Constraint Escalation",
+    "case_id":  "SB-048",
+    "expected_reason":  "constraint_escalation_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb048-canonical-hash",
+                  "glyph_id":  "CGO-SB-048"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

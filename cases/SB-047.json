@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Dependency Failure",
+    "case_id":  "SB-047",
+    "expected_reason":  "dependency_failure_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb047-canonical-hash",
+                  "glyph_id":  "CGO-SB-047"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Runtime Degradation",
+    "case_id":  "SB-044",
+    "expected_reason":  "runtime_degradation_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb044-canonical-hash",
+                  "glyph_id":  "CGO-SB-044"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

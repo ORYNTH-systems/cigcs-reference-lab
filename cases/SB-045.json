@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Sensor Failure",
+    "case_id":  "SB-045",
+    "expected_reason":  "sensor_failure_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb045-canonical-hash",
+                  "glyph_id":  "CGO-SB-045"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Dynamic Risk Increase",
+    "case_id":  "SB-041",
+    "expected_reason":  "dynamic_risk_increase",
+    "glyph":  {
+                  "canonical_hash":  "sb041-canonical-hash",
+                  "glyph_id":  "CGO-SB-041"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

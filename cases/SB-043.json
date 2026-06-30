@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Unexpected Obstacle",
+    "case_id":  "SB-043",
+    "expected_reason":  "unexpected_obstacle_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb043-canonical-hash",
+                  "glyph_id":  "CGO-SB-043"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

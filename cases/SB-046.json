@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Environmental Drift",
+    "case_id":  "SB-046",
+    "expected_reason":  "environmental_drift_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb046-canonical-hash",
+                  "glyph_id":  "CGO-SB-046"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}

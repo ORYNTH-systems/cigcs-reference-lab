@@ -1,0 +1,19 @@
+{
+    "artifact":  {
+                     "present":  true
+                 },
+    "expected_result":  "blocked",
+    "title":  "Resource Instability",
+    "case_id":  "SB-042",
+    "expected_reason":  "resource_instability_detected",
+    "glyph":  {
+                  "canonical_hash":  "sb042-canonical-hash",
+                  "glyph_id":  "CGO-SB-042"
+              },
+    "safety_predicate":  {
+                             "safe":  false
+                         },
+    "constraint_set":  {
+                           "admissible":  true
+                       }
+}
